@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "language": "en",
+  "category": "shapes",
+  "items": [
+    {
+      "id": "circle",
+      "category": "shapes",
+      "name": "Circle",
+      "shortDescription": "Let’s learn: circle.",
+      "emoji": "●",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/circle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "square",
+      "category": "shapes",
+      "name": "Square",
+      "shortDescription": "Let’s learn: square.",
+      "emoji": "■",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/square.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "triangle",
+      "category": "shapes",
+      "name": "Triangle",
+      "shortDescription": "Let’s learn: triangle.",
+      "emoji": "▲",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/triangle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "rectangle",
+      "category": "shapes",
+      "name": "Rectangle",
+      "shortDescription": "Let’s learn: rectangle.",
+      "emoji": "▬",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/rectangle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "oval",
+      "category": "shapes",
+      "name": "Oval",
+      "shortDescription": "Let’s learn: oval.",
+      "emoji": "⬭",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/oval.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "star",
+      "category": "shapes",
+      "name": "Star",
+      "shortDescription": "Let’s learn: star.",
+      "emoji": "★",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/star.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "heart",
+      "category": "shapes",
+      "name": "Heart",
+      "shortDescription": "Let’s learn: heart.",
+      "emoji": "♥",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/heart.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "diamond",
+      "category": "shapes",
+      "name": "Diamond",
+      "shortDescription": "Let’s learn: diamond.",
+      "emoji": "◆",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/shapes/diamond.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

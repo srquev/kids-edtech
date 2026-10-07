@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "language": "hi",
+  "category": "shapes",
+  "items": [
+    {
+      "id": "circle",
+      "category": "shapes",
+      "name": "वृत्त",
+      "shortDescription": "आओ सीखें: वृत्त।",
+      "emoji": "●",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/circle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "square",
+      "category": "shapes",
+      "name": "वर्ग",
+      "shortDescription": "आओ सीखें: वर्ग।",
+      "emoji": "■",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/square.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "triangle",
+      "category": "shapes",
+      "name": "त्रिभुज",
+      "shortDescription": "आओ सीखें: त्रिभुज।",
+      "emoji": "▲",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/triangle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "rectangle",
+      "category": "shapes",
+      "name": "आयत",
+      "shortDescription": "आओ सीखें: आयत।",
+      "emoji": "▬",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/rectangle.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "oval",
+      "category": "shapes",
+      "name": "अंडाकार",
+      "shortDescription": "आओ सीखें: अंडाकार।",
+      "emoji": "⬭",
+      "difficulty": 1,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/oval.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "star",
+      "category": "shapes",
+      "name": "तारा",
+      "shortDescription": "आओ सीखें: तारा।",
+      "emoji": "★",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/star.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "heart",
+      "category": "shapes",
+      "name": "दिल",
+      "shortDescription": "आओ सीखें: दिल।",
+      "emoji": "♥",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/heart.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "diamond",
+      "category": "shapes",
+      "name": "हीरा",
+      "shortDescription": "आओ सीखें: हीरा।",
+      "emoji": "◆",
+      "difficulty": 2,
+      "tags": [
+        "shapes"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/shapes/diamond.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

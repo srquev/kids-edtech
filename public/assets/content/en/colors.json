@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "language": "en",
+  "category": "colors",
+  "items": [
+    {
+      "id": "red",
+      "category": "colors",
+      "name": "Red",
+      "shortDescription": "Let’s learn: red.",
+      "emoji": "🔴",
+      "difficulty": 1,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/red.mp3",
+      "audioAvailable": false,
+      "color": "#dd4b48"
+    },
+    {
+      "id": "blue",
+      "category": "colors",
+      "name": "Blue",
+      "shortDescription": "Let’s learn: blue.",
+      "emoji": "🔵",
+      "difficulty": 1,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/blue.mp3",
+      "audioAvailable": false,
+      "color": "#3981d6"
+    },
+    {
+      "id": "yellow",
+      "category": "colors",
+      "name": "Yellow",
+      "shortDescription": "Let’s learn: yellow.",
+      "emoji": "🟡",
+      "difficulty": 1,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/yellow.mp3",
+      "audioAvailable": false,
+      "color": "#f6cb46"
+    },
+    {
+      "id": "green",
+      "category": "colors",
+      "name": "Green",
+      "shortDescription": "Let’s learn: green.",
+      "emoji": "🟢",
+      "difficulty": 1,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/green.mp3",
+      "audioAvailable": false,
+      "color": "#51a478"
+    },
+    {
+      "id": "orange",
+      "category": "colors",
+      "name": "Orange",
+      "shortDescription": "Let’s learn: orange.",
+      "emoji": "🟠",
+      "difficulty": 1,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/orange.mp3",
+      "audioAvailable": false,
+      "color": "#ed9345"
+    },
+    {
+      "id": "purple",
+      "category": "colors",
+      "name": "Purple",
+      "shortDescription": "Let’s learn: purple.",
+      "emoji": "🟣",
+      "difficulty": 2,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/purple.mp3",
+      "audioAvailable": false,
+      "color": "#9164c4"
+    },
+    {
+      "id": "pink",
+      "category": "colors",
+      "name": "Pink",
+      "shortDescription": "Let’s learn: pink.",
+      "emoji": "🌸",
+      "difficulty": 2,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/pink.mp3",
+      "audioAvailable": false,
+      "color": "#e58bad"
+    },
+    {
+      "id": "brown",
+      "category": "colors",
+      "name": "Brown",
+      "shortDescription": "Let’s learn: brown.",
+      "emoji": "🟤",
+      "difficulty": 2,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/brown.mp3",
+      "audioAvailable": false,
+      "color": "#9a7154"
+    },
+    {
+      "id": "black",
+      "category": "colors",
+      "name": "Black",
+      "shortDescription": "Let’s learn: black.",
+      "emoji": "⚫",
+      "difficulty": 2,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/black.mp3",
+      "audioAvailable": false,
+      "color": "#39343e"
+    },
+    {
+      "id": "white",
+      "category": "colors",
+      "name": "White",
+      "shortDescription": "Let’s learn: white.",
+      "emoji": "⚪",
+      "difficulty": 2,
+      "tags": [
+        "colors"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/colors/white.mp3",
+      "audioAvailable": false,
+      "color": "#fffef7"
+    }
+  ]
+}

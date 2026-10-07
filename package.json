@@ -1,12 +1,19 @@
 {
-  "name": "kids-edtech",
-  "version": "0.0.0",
+  "name": "tinysteps",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "eslint src e2e",
+    "format": "prettier --write src public/assets/content public/assets/i18n *.json *.mjs e2e scripts README.md",
+    "format:check": "prettier --check src public/assets/content public/assets/i18n *.json *.mjs e2e scripts README.md",
+    "test:unit": "ng test --watch=false --browsers=ChromeHeadless",
+    "test:e2e": "playwright test",
+    "preview": "node scripts/serve.mjs",
+    "check": "npm run lint && npm run test:unit && npm run build && npm run test:e2e"
   },
   "prettier": {
     "overrides": [
@@ -26,6 +33,7 @@
     "@angular/forms": "^20.1.0",
     "@angular/platform-browser": "^20.1.0",
     "@angular/router": "^20.1.0",
+    "@angular/service-worker": "^20.3.33",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -33,13 +41,19 @@
     "@angular/build": "^20.1.5",
     "@angular/cli": "^20.1.5",
     "@angular/compiler-cli": "^20.1.0",
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
     "@types/jasmine": "~5.1.0",
+    "angular-eslint": "^20.7.0",
+    "eslint": "^9.39.5",
     "jasmine-core": "~5.8.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.8.2"
+    "prettier": "^3.9.9",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.71.1"
   }
 }

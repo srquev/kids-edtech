@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "language": "hi",
+  "category": "numbers",
+  "items": [
+    {
+      "id": "1",
+      "category": "numbers",
+      "name": "एक",
+      "shortDescription": "आओ सीखें: एक।",
+      "emoji": "1",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/1.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "2",
+      "category": "numbers",
+      "name": "दो",
+      "shortDescription": "आओ सीखें: दो।",
+      "emoji": "2",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/2.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "3",
+      "category": "numbers",
+      "name": "तीन",
+      "shortDescription": "आओ सीखें: तीन।",
+      "emoji": "3",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/3.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "4",
+      "category": "numbers",
+      "name": "चार",
+      "shortDescription": "आओ सीखें: चार।",
+      "emoji": "4",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/4.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "5",
+      "category": "numbers",
+      "name": "पाँच",
+      "shortDescription": "आओ सीखें: पाँच।",
+      "emoji": "5",
+      "difficulty": 1,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/5.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "6",
+      "category": "numbers",
+      "name": "छह",
+      "shortDescription": "आओ सीखें: छह।",
+      "emoji": "6",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/6.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "7",
+      "category": "numbers",
+      "name": "सात",
+      "shortDescription": "आओ सीखें: सात।",
+      "emoji": "7",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/7.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "8",
+      "category": "numbers",
+      "name": "आठ",
+      "shortDescription": "आओ सीखें: आठ।",
+      "emoji": "8",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/8.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "9",
+      "category": "numbers",
+      "name": "नौ",
+      "shortDescription": "आओ सीखें: नौ।",
+      "emoji": "9",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/9.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "10",
+      "category": "numbers",
+      "name": "दस",
+      "shortDescription": "आओ सीखें: दस।",
+      "emoji": "10",
+      "difficulty": 2,
+      "tags": [
+        "numbers"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/numbers/10.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

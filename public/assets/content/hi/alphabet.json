@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "language": "hi",
+  "category": "alphabet",
+  "items": [
+    {
+      "id": "a",
+      "category": "alphabet",
+      "name": "ए",
+      "shortDescription": "आओ सीखें: ए।",
+      "emoji": "A",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/a.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "b",
+      "category": "alphabet",
+      "name": "बी",
+      "shortDescription": "आओ सीखें: बी।",
+      "emoji": "B",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/b.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "c",
+      "category": "alphabet",
+      "name": "सी",
+      "shortDescription": "आओ सीखें: सी।",
+      "emoji": "C",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/c.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "d",
+      "category": "alphabet",
+      "name": "डी",
+      "shortDescription": "आओ सीखें: डी।",
+      "emoji": "D",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/d.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "e",
+      "category": "alphabet",
+      "name": "ई",
+      "shortDescription": "आओ सीखें: ई।",
+      "emoji": "E",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/e.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "f",
+      "category": "alphabet",
+      "name": "एफ",
+      "shortDescription": "आओ सीखें: एफ।",
+      "emoji": "F",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/f.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "g",
+      "category": "alphabet",
+      "name": "जी",
+      "shortDescription": "आओ सीखें: जी।",
+      "emoji": "G",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/g.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "h",
+      "category": "alphabet",
+      "name": "एच",
+      "shortDescription": "आओ सीखें: एच।",
+      "emoji": "H",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/h.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "i",
+      "category": "alphabet",
+      "name": "आई",
+      "shortDescription": "आओ सीखें: आई।",
+      "emoji": "I",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/i.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "j",
+      "category": "alphabet",
+      "name": "जे",
+      "shortDescription": "आओ सीखें: जे।",
+      "emoji": "J",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/j.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "k",
+      "category": "alphabet",
+      "name": "के",
+      "shortDescription": "आओ सीखें: के।",
+      "emoji": "K",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/k.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "l",
+      "category": "alphabet",
+      "name": "एल",
+      "shortDescription": "आओ सीखें: एल।",
+      "emoji": "L",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/l.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "m",
+      "category": "alphabet",
+      "name": "एम",
+      "shortDescription": "आओ सीखें: एम।",
+      "emoji": "M",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/m.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "n",
+      "category": "alphabet",
+      "name": "एन",
+      "shortDescription": "आओ सीखें: एन।",
+      "emoji": "N",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/n.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "o",
+      "category": "alphabet",
+      "name": "ओ",
+      "shortDescription": "आओ सीखें: ओ।",
+      "emoji": "O",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/o.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "p",
+      "category": "alphabet",
+      "name": "पी",
+      "shortDescription": "आओ सीखें: पी।",
+      "emoji": "P",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/p.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "q",
+      "category": "alphabet",
+      "name": "क्यू",
+      "shortDescription": "आओ सीखें: क्यू।",
+      "emoji": "Q",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/q.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "r",
+      "category": "alphabet",
+      "name": "आर",
+      "shortDescription": "आओ सीखें: आर।",
+      "emoji": "R",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/r.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "s",
+      "category": "alphabet",
+      "name": "एस",
+      "shortDescription": "आओ सीखें: एस।",
+      "emoji": "S",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/s.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "t",
+      "category": "alphabet",
+      "name": "टी",
+      "shortDescription": "आओ सीखें: टी।",
+      "emoji": "T",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/t.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "u",
+      "category": "alphabet",
+      "name": "यू",
+      "shortDescription": "आओ सीखें: यू।",
+      "emoji": "U",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/u.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "v",
+      "category": "alphabet",
+      "name": "वी",
+      "shortDescription": "आओ सीखें: वी।",
+      "emoji": "V",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/v.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "w",
+      "category": "alphabet",
+      "name": "डब्ल्यू",
+      "shortDescription": "आओ सीखें: डब्ल्यू।",
+      "emoji": "W",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/w.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "x",
+      "category": "alphabet",
+      "name": "एक्स",
+      "shortDescription": "आओ सीखें: एक्स।",
+      "emoji": "X",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/x.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "y",
+      "category": "alphabet",
+      "name": "वाई",
+      "shortDescription": "आओ सीखें: वाई।",
+      "emoji": "Y",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/y.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "z",
+      "category": "alphabet",
+      "name": "ज़ेड",
+      "shortDescription": "आओ सीखें: ज़ेड।",
+      "emoji": "Z",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/alphabet/z.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

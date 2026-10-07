@@ -1,0 +1,14 @@
+[
+  {
+    "id": "en",
+    "label": "English",
+    "locale": "en-IN",
+    "dir": "ltr"
+  },
+  {
+    "id": "hi",
+    "label": "हिन्दी",
+    "locale": "hi-IN",
+    "dir": "ltr"
+  }
+]

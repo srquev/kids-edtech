@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "language": "en",
+  "category": "alphabet",
+  "items": [
+    {
+      "id": "a",
+      "category": "alphabet",
+      "name": "A",
+      "shortDescription": "A is a letter. A for Apple.",
+      "emoji": "A",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/a.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "b",
+      "category": "alphabet",
+      "name": "B",
+      "shortDescription": "B is a letter. B for Ball.",
+      "emoji": "B",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/b.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "c",
+      "category": "alphabet",
+      "name": "C",
+      "shortDescription": "C is a letter. C for Cat.",
+      "emoji": "C",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/c.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "d",
+      "category": "alphabet",
+      "name": "D",
+      "shortDescription": "D is a letter. D for Dog.",
+      "emoji": "D",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/d.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "e",
+      "category": "alphabet",
+      "name": "E",
+      "shortDescription": "E is a letter. E for Elephant.",
+      "emoji": "E",
+      "difficulty": 1,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/e.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "f",
+      "category": "alphabet",
+      "name": "F",
+      "shortDescription": "F is a letter. F for Fish.",
+      "emoji": "F",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/f.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "g",
+      "category": "alphabet",
+      "name": "G",
+      "shortDescription": "G is a letter. G for Grapes.",
+      "emoji": "G",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/g.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "h",
+      "category": "alphabet",
+      "name": "H",
+      "shortDescription": "H is a letter. H for Hat.",
+      "emoji": "H",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/h.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "i",
+      "category": "alphabet",
+      "name": "I",
+      "shortDescription": "I is a letter. I for Ice cream.",
+      "emoji": "I",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/i.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "j",
+      "category": "alphabet",
+      "name": "J",
+      "shortDescription": "J is a letter. J for Juice.",
+      "emoji": "J",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/j.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "k",
+      "category": "alphabet",
+      "name": "K",
+      "shortDescription": "K is a letter. K for Kite.",
+      "emoji": "K",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/k.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "l",
+      "category": "alphabet",
+      "name": "L",
+      "shortDescription": "L is a letter. L for Lion.",
+      "emoji": "L",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/l.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "m",
+      "category": "alphabet",
+      "name": "M",
+      "shortDescription": "M is a letter. M for Moon.",
+      "emoji": "M",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/m.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "n",
+      "category": "alphabet",
+      "name": "N",
+      "shortDescription": "N is a letter. N for Nest.",
+      "emoji": "N",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/n.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "o",
+      "category": "alphabet",
+      "name": "O",
+      "shortDescription": "O is a letter. O for Orange.",
+      "emoji": "O",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/o.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "p",
+      "category": "alphabet",
+      "name": "P",
+      "shortDescription": "P is a letter. P for Panda.",
+      "emoji": "P",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/p.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "q",
+      "category": "alphabet",
+      "name": "Q",
+      "shortDescription": "Q is a letter. Q for Queen.",
+      "emoji": "Q",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/q.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "r",
+      "category": "alphabet",
+      "name": "R",
+      "shortDescription": "R is a letter. R for Rabbit.",
+      "emoji": "R",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/r.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "s",
+      "category": "alphabet",
+      "name": "S",
+      "shortDescription": "S is a letter. S for Sun.",
+      "emoji": "S",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/s.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "t",
+      "category": "alphabet",
+      "name": "T",
+      "shortDescription": "T is a letter. T for Tiger.",
+      "emoji": "T",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/t.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "u",
+      "category": "alphabet",
+      "name": "U",
+      "shortDescription": "U is a letter. U for Umbrella.",
+      "emoji": "U",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/u.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "v",
+      "category": "alphabet",
+      "name": "V",
+      "shortDescription": "V is a letter. V for Van.",
+      "emoji": "V",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/v.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "w",
+      "category": "alphabet",
+      "name": "W",
+      "shortDescription": "W is a letter. W for Watermelon.",
+      "emoji": "W",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/w.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "x",
+      "category": "alphabet",
+      "name": "X",
+      "shortDescription": "X is a letter. X for Xylophone.",
+      "emoji": "X",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/x.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "y",
+      "category": "alphabet",
+      "name": "Y",
+      "shortDescription": "Y is a letter. Y for Yo-yo.",
+      "emoji": "Y",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/y.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "z",
+      "category": "alphabet",
+      "name": "Z",
+      "shortDescription": "Z is a letter. Z for Zebra.",
+      "emoji": "Z",
+      "difficulty": 2,
+      "tags": [
+        "alphabet"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/alphabet/z.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

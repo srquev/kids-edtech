@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "language": "hi",
+  "category": "animals",
+  "items": [
+    {
+      "id": "elephant",
+      "category": "animals",
+      "name": "हाथी",
+      "shortDescription": "आओ सीखें: हाथी।",
+      "emoji": "🐘",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/elephant.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "lion",
+      "category": "animals",
+      "name": "शेर",
+      "shortDescription": "आओ सीखें: शेर।",
+      "emoji": "🦁",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/lion.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "tiger",
+      "category": "animals",
+      "name": "बाघ",
+      "shortDescription": "आओ सीखें: बाघ।",
+      "emoji": "🐯",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/tiger.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "dog",
+      "category": "animals",
+      "name": "कुत्ता",
+      "shortDescription": "आओ सीखें: कुत्ता।",
+      "emoji": "🐶",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/dog.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "cat",
+      "category": "animals",
+      "name": "बिल्ली",
+      "shortDescription": "आओ सीखें: बिल्ली।",
+      "emoji": "🐱",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/cat.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "rabbit",
+      "category": "animals",
+      "name": "खरगोश",
+      "shortDescription": "आओ सीखें: खरगोश।",
+      "emoji": "🐰",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/rabbit.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "bear",
+      "category": "animals",
+      "name": "भालू",
+      "shortDescription": "आओ सीखें: भालू।",
+      "emoji": "🐻",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/bear.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "panda",
+      "category": "animals",
+      "name": "पांडा",
+      "shortDescription": "आओ सीखें: पांडा।",
+      "emoji": "🐼",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/panda.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "monkey",
+      "category": "animals",
+      "name": "बंदर",
+      "shortDescription": "आओ सीखें: बंदर।",
+      "emoji": "🐵",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/monkey.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "fox",
+      "category": "animals",
+      "name": "लोमड़ी",
+      "shortDescription": "आओ सीखें: लोमड़ी।",
+      "emoji": "🦊",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/fox.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "cow",
+      "category": "animals",
+      "name": "गाय",
+      "shortDescription": "आओ सीखें: गाय।",
+      "emoji": "🐮",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/cow.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "pig",
+      "category": "animals",
+      "name": "सूअर",
+      "shortDescription": "आओ सीखें: सूअर।",
+      "emoji": "🐷",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/pig.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "horse",
+      "category": "animals",
+      "name": "घोड़ा",
+      "shortDescription": "आओ सीखें: घोड़ा।",
+      "emoji": "🐴",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/horse.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "sheep",
+      "category": "animals",
+      "name": "भेड़",
+      "shortDescription": "आओ सीखें: भेड़।",
+      "emoji": "🐑",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/sheep.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "giraffe",
+      "category": "animals",
+      "name": "जिराफ़",
+      "shortDescription": "आओ सीखें: जिराफ़।",
+      "emoji": "🦒",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/giraffe.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "zebra",
+      "category": "animals",
+      "name": "ज़ेब्रा",
+      "shortDescription": "आओ सीखें: ज़ेब्रा।",
+      "emoji": "🦓",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/animals/zebra.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

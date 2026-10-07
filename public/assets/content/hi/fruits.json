@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "language": "hi",
+  "category": "fruits",
+  "items": [
+    {
+      "id": "apple",
+      "category": "fruits",
+      "name": "सेब",
+      "shortDescription": "आओ सीखें: सेब।",
+      "emoji": "🍎",
+      "difficulty": 1,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/apple.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "banana",
+      "category": "fruits",
+      "name": "केला",
+      "shortDescription": "आओ सीखें: केला।",
+      "emoji": "🍌",
+      "difficulty": 1,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/banana.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "grapes",
+      "category": "fruits",
+      "name": "अंगूर",
+      "shortDescription": "आओ सीखें: अंगूर।",
+      "emoji": "🍇",
+      "difficulty": 1,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/grapes.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "orange",
+      "category": "fruits",
+      "name": "संतरा",
+      "shortDescription": "आओ सीखें: संतरा।",
+      "emoji": "🍊",
+      "difficulty": 1,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/orange.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "strawberry",
+      "category": "fruits",
+      "name": "स्ट्रॉबेरी",
+      "shortDescription": "आओ सीखें: स्ट्रॉबेरी।",
+      "emoji": "🍓",
+      "difficulty": 1,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/strawberry.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "watermelon",
+      "category": "fruits",
+      "name": "तरबूज",
+      "shortDescription": "आओ सीखें: तरबूज।",
+      "emoji": "🍉",
+      "difficulty": 2,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/watermelon.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "pineapple",
+      "category": "fruits",
+      "name": "अनानास",
+      "shortDescription": "आओ सीखें: अनानास।",
+      "emoji": "🍍",
+      "difficulty": 2,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/pineapple.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "mango",
+      "category": "fruits",
+      "name": "आम",
+      "shortDescription": "आओ सीखें: आम।",
+      "emoji": "🥭",
+      "difficulty": 2,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/mango.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "pear",
+      "category": "fruits",
+      "name": "नाशपाती",
+      "shortDescription": "आओ सीखें: नाशपाती।",
+      "emoji": "🍐",
+      "difficulty": 2,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/pear.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "cherry",
+      "category": "fruits",
+      "name": "चेरी",
+      "shortDescription": "आओ सीखें: चेरी।",
+      "emoji": "🍒",
+      "difficulty": 2,
+      "tags": [
+        "fruits"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/hi/fruits/cherry.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

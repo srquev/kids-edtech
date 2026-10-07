@@ -1,0 +1,15 @@
+<div class="page">
+@if(!categoryId()) { <div class="page-heading"><div><span class="eyebrow">{{i.t('nav.learn')}}</span><h1>{{i.t('learn.title')}}</h1><p>{{i.t('learn.subtitle')}}</p></div><span class="heading-art" aria-hidden="true">✿</span></div><div class="category-grid">@for(category of content.categories();track category.id){<app-category-card [category]="category"/>}</div> }
+@else {
+  <a class="back-link" [routerLink]="itemId()?['/learn',categoryId()]:['/learn']"><span aria-hidden="true">←</span>{{i.t(itemId()?'category.'+categoryId():'nav.learn')}}</a>
+  @if(loading()){<div class="state" role="status"><span aria-hidden="true">✦</span>{{i.t('common.loading')}}</div>}
+  @else if(failed()){<div class="state" role="alert"><span aria-hidden="true">☁</span><p>{{i.t('common.error')}}</p><button class="button" (click)="load()">{{i.t('common.retry')}}</button></div>}
+  @else if(itemId()) {
+    @if(selected();as item){<section class="lesson panel"><span class="pill">{{i.t('category.'+categoryId())}}</span><div class="lesson-art"><app-item-art [item]="item"/></div><h1>{{item.name}}</h1><p>{{item.shortDescription}}</p><button class="listen-button" (click)="audio.playPronunciation(item)" [attr.aria-label]="i.t('common.listen')" [attr.aria-pressed]="audio.playing()"><svg aria-hidden="true"><use href="#volume"/></svg>{{i.t('common.listen')}}</button><div class="lesson-actions"><a class="button" routerLink="/play/find-it" [queryParams]="{category:categoryId(),target:item.id}">{{i.t('learn.activity')}} <span aria-hidden="true">→</span></a>@if(nextItem();as next){<a class="button secondary" [routerLink]="['/learn',categoryId(),next.id]">{{i.t('learn.next')}} <span aria-hidden="true">↗</span></a>}</div></section>}
+    @else{<div class="state"><p>{{i.t('learn.missing')}}</p><a class="button" [routerLink]="['/learn',categoryId() ]">{{i.t('common.back')}}</a></div>}
+  } @else {
+    <div class="page-heading"><div><h1>{{i.t('category.'+categoryId())}}</h1><p>{{i.t('learn.items',{count:items().length})}} · {{i.t('learn.subtitle')}}</p></div></div>
+    <div class="items-grid">@for(item of items();track item.id){<a class="item-card panel" [routerLink]="['/learn',categoryId(),item.id]"><div class="item-art"><app-item-art [item]="item"/></div><strong>{{item.name}}</strong>@if(explored(item)){<span class="explored" [attr.aria-label]="i.t('learn.explored')">✓</span>}<span class="item-sound" aria-hidden="true">♪</span></a>}@empty{<p class="empty">{{i.t('common.empty')}}</p>}</div>
+  }
+}
+</div>

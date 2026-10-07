@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "language": "en",
+  "category": "animals",
+  "items": [
+    {
+      "id": "elephant",
+      "category": "animals",
+      "name": "Elephant",
+      "shortDescription": "Let’s learn: elephant.",
+      "emoji": "🐘",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/elephant.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "lion",
+      "category": "animals",
+      "name": "Lion",
+      "shortDescription": "Let’s learn: lion.",
+      "emoji": "🦁",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/lion.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "tiger",
+      "category": "animals",
+      "name": "Tiger",
+      "shortDescription": "Let’s learn: tiger.",
+      "emoji": "🐯",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/tiger.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "dog",
+      "category": "animals",
+      "name": "Dog",
+      "shortDescription": "Let’s learn: dog.",
+      "emoji": "🐶",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/dog.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "cat",
+      "category": "animals",
+      "name": "Cat",
+      "shortDescription": "Let’s learn: cat.",
+      "emoji": "🐱",
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/cat.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "rabbit",
+      "category": "animals",
+      "name": "Rabbit",
+      "shortDescription": "Let’s learn: rabbit.",
+      "emoji": "🐰",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/rabbit.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "bear",
+      "category": "animals",
+      "name": "Bear",
+      "shortDescription": "Let’s learn: bear.",
+      "emoji": "🐻",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/bear.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "panda",
+      "category": "animals",
+      "name": "Panda",
+      "shortDescription": "Let’s learn: panda.",
+      "emoji": "🐼",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/panda.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "monkey",
+      "category": "animals",
+      "name": "Monkey",
+      "shortDescription": "Let’s learn: monkey.",
+      "emoji": "🐵",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/monkey.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "fox",
+      "category": "animals",
+      "name": "Fox",
+      "shortDescription": "Let’s learn: fox.",
+      "emoji": "🦊",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/fox.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "cow",
+      "category": "animals",
+      "name": "Cow",
+      "shortDescription": "Let’s learn: cow.",
+      "emoji": "🐮",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/cow.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "pig",
+      "category": "animals",
+      "name": "Pig",
+      "shortDescription": "Let’s learn: pig.",
+      "emoji": "🐷",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/pig.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "horse",
+      "category": "animals",
+      "name": "Horse",
+      "shortDescription": "Let’s learn: horse.",
+      "emoji": "🐴",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/horse.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "sheep",
+      "category": "animals",
+      "name": "Sheep",
+      "shortDescription": "Let’s learn: sheep.",
+      "emoji": "🐑",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/sheep.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "giraffe",
+      "category": "animals",
+      "name": "Giraffe",
+      "shortDescription": "Let’s learn: giraffe.",
+      "emoji": "🦒",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/giraffe.mp3",
+      "audioAvailable": false
+    },
+    {
+      "id": "zebra",
+      "category": "animals",
+      "name": "Zebra",
+      "shortDescription": "Let’s learn: zebra.",
+      "emoji": "🦓",
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "enabled": true,
+      "audio": "/assets/audio/en/animals/zebra.mp3",
+      "audioAvailable": false
+    }
+  ]
+}

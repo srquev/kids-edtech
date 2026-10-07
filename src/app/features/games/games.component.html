@@ -1,0 +1,25 @@
+<div class="page">
+@if(!kind){<div class="page-heading"><div><span class="eyebrow">{{i.t('nav.play')}}</span><h1>{{i.t('play.title')}}</h1><p>{{i.t('play.subtitle')}}</p></div><span class="heading-star" aria-hidden="true">✦</span></div><div class="game-grid">@for(game of games;track game.id){<a [class]="'game-card '+game.theme" [routerLink]="['/play',game.id]"><span class="game-icon" aria-hidden="true">{{game.icon}}</span><div><h2>{{i.t('game.'+game.id)}}</h2><p>{{i.t('game.'+game.id+'.desc')}}</p></div><span class="game-arrow" aria-hidden="true">→</span></a>}</div><a class="practice-banner panel" routerLink="/play/find-it" [queryParams]="{practice:true}"><span aria-hidden="true">✧</span><div><h3>{{i.t('home.practiceMe')}}</h3><p>{{i.t('game.practice')}}</p></div><span aria-hidden="true">→</span></a>}
+@else{
+<a class="back-link" routerLink="/play">← {{i.t('nav.play')}}</a>
+@if(!knownGame || failed()){<div class="state"><p>{{i.t('common.error')}}</p><button class="button" (click)="start()">{{i.t('common.retry')}}</button></div>}
+@else if(loading()){<div class="state" role="status">{{i.t('common.loading')}}</div>}
+@else if(finished()){
+<section class="result panel"><div class="reward-stars celebrate" aria-hidden="true">✦ ★ ✦</div><h1>{{i.t('game.finish')}}</h1><p>{{i.t('game.finishSub')}}</p><strong class="earned">{{i.t('game.earned',{count:stars()})}}</strong>@if(progress.goalReached()){<p class="feedback">{{i.t('game.goal')}}</p>}<div class="result-actions"><a class="button" routerLink="/rewards">{{i.t('nav.rewards')}} <span aria-hidden="true">→</span></a><a class="button secondary" routerLink="/">{{i.t('game.stop')}}</a>@if(!progress.goalReached()){<button class="button outline" (click)="start()">{{i.t('game.again')}}</button>}</div></section>
+} @else if(current();as q){
+<section class="game-stage panel"><div class="game-top"><span class="pill">{{i.t('game.'+kind)}}</span><span class="game-position">{{kind==='memory'?i.t('game.pairs',{count:matched().length}):i.t('game.progress',{current:index()+1,total:session()?.questions?.length || 5})}}</span><button class="icon-button" (click)="audio.playInstruction(prompt())" [attr.aria-label]="i.t('common.listen')"><svg aria-hidden="true"><use href="#volume"/></svg></button></div>
+<div class="progress-track" role="progressbar" [attr.aria-label]="i.t('game.'+kind)" [attr.aria-valuenow]="kind==='memory'?matched().length:index()" aria-valuemin="0" [attr.aria-valuemax]="kind==='memory'?cards().length/2:session()?.questions?.length"><span [style.width.%]="kind==='memory'?matched().length/(cards().length/2)*100:index()/(session()?.questions?.length || 5)*100"></span></div>
+<h1 class="game-prompt">{{prompt()}}</h1>
+@if(kind==='match'){<div class="match-target"><app-item-art [item]="q.target"/></div><span class="match-connector" aria-hidden="true">↓</span>}
+@if(kind==='count'){<div class="count-objects" [attr.aria-label]="q.count + ' ' + i.t('category.fruits')">@for(n of [].constructor(q.count);track $index){<span aria-hidden="true">🍎</span>}</div>}
+@if(kind==='memory'){
+<div class="memory-grid" [class.advanced]="cards().length>6">@for(card of cards();track card.id;let idx=$index){<button class="memory-card" [class.face-up]="visible(card)" [class.matched]="matched().includes(card.item.id)" [disabled]="matched().includes(card.item.id)" [attr.aria-label]="visible(card)?card.item.name:i.t('game.hidden',{number:idx+1})" (click)="flip(card)">@if(visible(card)){<app-item-art [item]="card.item"/>}@else{<span aria-hidden="true">✦</span>}</button>}</div>
+} @else {
+<div class="answers" [class.numbers]="kind==='count'">@for(option of q.options;track option.id){<button class="answer-card" [class.correct]="feedback()==='correct' && selected()===option.id" [class.gentle-retry]="feedback()==='retry' && selected()===option.id" [disabled]="feedback()==='correct'" [attr.aria-label]="option.label" (click)="answer(option.id)">@if(option.item){<div class="answer-art"><app-item-art [item]="option.item"/></div><span>{{option.label}}</span>}@else{<strong>{{option.label}}</strong>}@if(feedback()==='correct' && selected()===option.id){<span class="correct-mark" aria-hidden="true">✓</span>}</button>}</div>
+}
+<div class="feedback-area" aria-live="polite">@if(feedback()){<p [class]="feedback()==='correct'?'feedback':'feedback gentle'">{{i.t(feedback()==='correct'?'game.correct':'game.retry')}}</p>}</div>
+@if(feedback()==='correct' && kind!=='memory'){<button class="button next-button" (click)="next()">{{i.t('game.next')}} <span aria-hidden="true">→</span></button>}
+</section>
+}
+}
+</div>

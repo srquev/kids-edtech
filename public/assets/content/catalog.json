@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "alphabet",
+      "symbol": "A",
+      "theme": "lavender",
+      "titleKey": "category.alphabet",
+      "descriptionKey": "categoryDesc.alphabet",
+      "illustration": "/assets/illustrations/alphabet.svg",
+      "pack": "core"
+    },
+    {
+      "id": "numbers",
+      "symbol": "123",
+      "theme": "peach",
+      "titleKey": "category.numbers",
+      "descriptionKey": "categoryDesc.numbers",
+      "illustration": "/assets/illustrations/numbers.svg",
+      "pack": "core"
+    },
+    {
+      "id": "animals",
+      "symbol": "🐯",
+      "theme": "mint",
+      "titleKey": "category.animals",
+      "descriptionKey": "categoryDesc.animals",
+      "illustration": "/assets/illustrations/animals.svg",
+      "pack": "core"
+    },
+    {
+      "id": "colors",
+      "symbol": "🌈",
+      "theme": "pink",
+      "titleKey": "category.colors",
+      "descriptionKey": "categoryDesc.colors",
+      "illustration": "/assets/illustrations/colors.svg",
+      "pack": "core"
+    },
+    {
+      "id": "shapes",
+      "symbol": "◆",
+      "theme": "blue",
+      "titleKey": "category.shapes",
+      "descriptionKey": "categoryDesc.shapes",
+      "illustration": "/assets/illustrations/shapes.svg",
+      "pack": "core"
+    },
+    {
+      "id": "fruits",
+      "symbol": "🍓",
+      "theme": "yellow",
+      "titleKey": "category.fruits",
+      "descriptionKey": "categoryDesc.fruits",
+      "illustration": "/assets/illustrations/fruits.svg",
+      "pack": "core"
+    }
+  ]
+}
