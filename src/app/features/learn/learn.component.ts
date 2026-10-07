@@ -25,7 +25,7 @@ export class LearnComponent {
       if (request !== this.request) return;
       this.items.set(items);
       const selected = this.selected();
-      if (selected) { const key = `${selected.category}:${selected.id}`; if (!this.visited.has(key)) { this.visited.add(key); this.progress.record(selected, 'lesson', 0, this.sessionId, 0); } }
+      if (selected) { this.audio.playPronunciation(selected); const key = `${selected.category}:${selected.id}`; if (!this.visited.has(key)) { this.visited.add(key); this.progress.record(selected, 'lesson', 0, this.sessionId, 0); } }
     } catch { if (request === this.request) this.failed.set(true); }
     finally { if (request === this.request) this.loading.set(false); }
   }
