@@ -152,9 +152,15 @@ export class GamesComponent implements OnDestroy {
         result.attempts,
         this.session()?.id ?? '',
         1,
+        result.attempts - 1,
       );
     } else {
       this.feedback.set('retry');
+      this.progress.recordRetry(
+        q.target,
+        this.kind ?? 'find-it',
+        this.session()?.id ?? '',
+      );
       this.audio.playRetry();
       this.analytics.track('answer_retry');
     }

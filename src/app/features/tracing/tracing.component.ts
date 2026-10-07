@@ -159,13 +159,8 @@ export class TracingComponent {
       if (def && !this.rewarded.has(def.id)) {
         this.progress.record(
           {
-            id: def.id.toLowerCase(),
-            category:
-              def.type === 'letter'
-                ? 'alphabet'
-                : def.type === 'number'
-                  ? 'numbers'
-                  : 'shapes',
+            id: def.id,
+            category: 'tracing',
             name: def.id,
             shortDescription: '',
             emoji: def.id,

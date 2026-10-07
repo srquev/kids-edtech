@@ -187,6 +187,17 @@ describe('Repositories and family progress', () => {
     progress.record(pool[0], 'find-it', 1, 'three');
     expect(mastery(progress.concepts()[0])).toBe('mastered');
   });
+  it('preserves unfinished retries without double-counting a later success', async () => {
+    await create('Sunny');
+    progress.recordRetry(pool[0], 'find-it', 'one');
+    expect(progress.concepts()[0].attempts).toBe(1);
+    expect(progress.concepts()[0].successes).toBe(0);
+    expect(family.progress().stars).toBe(0);
+    progress.record(pool[0], 'find-it', 2, 'one', 1, 1);
+    expect(progress.concepts()[0].attempts).toBe(2);
+    expect(progress.concepts()[0].successes).toBe(1);
+    expect(family.progress().stars).toBe(1);
+  });
   it('keeps in-memory learning available when persistence fails', async () => {
     adapter.fail = true;
     await create('Sunny');

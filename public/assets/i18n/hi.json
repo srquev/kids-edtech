@@ -212,5 +212,6 @@
   "app.name": "TinySteps",
   "shape.circle": "वृत्त",
   "shape.square": "वर्ग",
-  "shape.triangle": "त्रिभुज"
+  "shape.triangle": "त्रिभुज",
+  "category.tracing": "लिखना"
 }

@@ -79,7 +79,7 @@ import { ProgressService } from '../../core/progress/progress.service';
       }
       .star-collection p {
         font-size: 0.8rem;
-        color: #82714e;
+        color: #71603f;
         margin-top: 13px;
       }
       .badges {
@@ -171,7 +171,9 @@ export class RewardsComponent {
     {
       id: 'ten',
       icon: '🧭',
-      unlocked: this.progress.data().activities.length >= 10,
+      unlocked:
+        this.progress.data().activities.filter((activity) => activity.correct)
+          .length >= 10,
     },
     { id: 'fifty', icon: '⭐', unlocked: this.progress.data().stars >= 50 },
     {

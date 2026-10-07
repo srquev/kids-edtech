@@ -137,7 +137,8 @@ test('all four games can finish and memory pairs are accessible', async ({
               !!document.querySelector('.result') ||
               !!document
                 .querySelectorAll('.memory-card')
-                [idx]?.classList.contains('face-up'),
+                .item(idx)
+                ?.classList.contains('face-up'),
             index,
           ),
         )
@@ -216,19 +217,23 @@ test('responsive layouts, keyboard access and accessibility', async ({
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
       .analyze();
-    expect(
-      results.violations.map((v) => ({
-        id: v.id,
-        nodes: v.nodes.map((n) => ({
-          target: n.target,
-          summary: n.failureSummary,
+    expect
+      .soft(
+        results.violations.map((v) => ({
+          id: v.id,
+          nodes: v.nodes.map((n) => ({
+            target: n.target,
+            summary: n.failureSummary,
+          })),
         })),
-      })),
-      `${route}: ${JSON.stringify(results.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })))}`,
-    ).toEqual([]);
+        `${route}: ${JSON.stringify(results.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })))}`,
+      )
+      .toEqual([]);
     expect(
       await page.evaluate(
-        () => document.documentElement.scrollWidth <= window.innerWidth,
+        () =>
+          document.documentElement.scrollWidth <=
+          document.documentElement.clientWidth,
       ),
     ).toBe(true);
   }
@@ -245,7 +250,9 @@ test('responsive layouts, keyboard access and accessibility', async ({
     });
     expect(
       await page.evaluate(
-        () => document.documentElement.scrollWidth <= window.innerWidth,
+        () =>
+          document.documentElement.scrollWidth <=
+          document.documentElement.clientWidth,
       ),
     ).toBe(true);
   }

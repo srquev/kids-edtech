@@ -90,7 +90,7 @@ All stored names are local nicknames. Parent gate permission exists only in memo
 
 ### Progress and mastery
 
-Lessons establish familiarity and do not grant mastery. Completed answers record attempts, first-try success, concept/category, session ID, date, and stars. Mastery requires at least three successful interactions in at least three separate activity sessions, with at least 70% successful answers relative to attempts. Thresholds and the practice ratio are in `MASTERY_RULES`.
+Lessons establish familiarity and do not grant mastery. Completed answers record attempts, first-try success, concept/category, session ID, date, and stars. Incorrect answers are saved immediately, so an unfinished question still informs practice. Completion does not double-count those earlier retries. Tracing progress is tracked separately from identifying learning objects. Mastery requires at least three successful interactions in at least three separate activity sessions, with at least 70% successful answers relative to attempts. Thresholds and the practice ratio are in `MASTERY_RULES`.
 
 Practice ranks familiar concepts by accuracy and recency, then blends approximately 70% familiar/practice items with 30% new items. When one pool is small it fills from available content. Age initializes difficulty; parents can choose two, three, or four options. There are no diagnostic, developmental, or comparative labels.
 

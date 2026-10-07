@@ -135,6 +135,14 @@ export class ParentComponent implements OnDestroy {
     }
   }
   name(category: string, id: string): string {
+    if (category === 'tracing')
+      return (
+        this.i.t('nav.trace') +
+        ' · ' +
+        (['circle', 'square', 'triangle'].includes(id)
+          ? this.i.t('shape.' + id)
+          : id)
+      );
     return (
       this.items().find((item) => item.category === category && item.id === id)
         ?.name ?? this.i.t('category.' + category)

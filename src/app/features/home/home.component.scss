@@ -377,11 +377,11 @@
 }
 @media (max-width: 980px) {
   .home-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .journey-column {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .daily-card {
     grid-row: span 2;
@@ -555,5 +555,15 @@
   }
   .section-title p {
     font-size: 0.73rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .goal-ring {
+    width: 108px;
+    height: 108px;
+  }
+  .journey-column .panel {
+    min-width: 0;
   }
 }

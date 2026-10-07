@@ -85,6 +85,7 @@ export class ProgressService {
     attempts: number,
     sessionId: string,
     stars = 1,
+    recordedRetries = 0,
   ): void {
     const profileId = this.family.active()?.id;
     if (!profileId) return;
@@ -98,7 +99,9 @@ export class ProgressService {
       const concept: ConceptProgress = {
         id: item.id,
         category: item.category,
-        attempts: (prior?.attempts ?? 0) + (assessed ? attempts : 0),
+        attempts:
+          (prior?.attempts ?? 0) +
+          (assessed ? Math.max(1, attempts - recordedRetries) : 0),
         successes: (prior?.successes ?? 0) + (assessed ? 1 : 0),
         firstTry: (prior?.firstTry ?? 0) + (assessed && attempts === 1 ? 1 : 0),
         sessions: assessed
@@ -125,6 +128,47 @@ export class ProgressService {
             ...progress,
             concepts: { ...progress.concepts, [key]: concept },
             stars: progress.stars + stars,
+            activities: [activity, ...progress.activities].slice(0, 500),
+          },
+        },
+      };
+    });
+  }
+  recordRetry(item: LearningItem, kind: string, sessionId: string): void {
+    const profileId = this.family.active()?.id;
+    if (!profileId) return;
+    const date = new Date().toISOString();
+    void this.family.repository.update((state) => {
+      const progress = state.progress[profileId] ?? emptyProgress();
+      const key = `${item.category}:${item.id}`;
+      const prior = progress.concepts[key];
+      const concept: ConceptProgress = {
+        id: item.id,
+        category: item.category,
+        attempts: (prior?.attempts ?? 0) + 1,
+        successes: prior?.successes ?? 0,
+        firstTry: prior?.firstTry ?? 0,
+        sessions: prior?.sessions ?? [],
+        lastPracticed: date,
+      };
+      const activity = {
+        id: crypto.randomUUID(),
+        conceptId: item.id,
+        category: item.category,
+        kind,
+        correct: false,
+        attempts: 1,
+        stars: 0,
+        date,
+        sessionId,
+      };
+      return {
+        ...state,
+        progress: {
+          ...state.progress,
+          [profileId]: {
+            ...progress,
+            concepts: { ...progress.concepts, [key]: concept },
             activities: [activity, ...progress.activities].slice(0, 500),
           },
         },
