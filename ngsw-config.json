@@ -1,9 +1,32 @@
 {
- "$schema":"./node_modules/@angular/service-worker/config/schema.json",
- "index":"/index.html",
- "assetGroups":[
-  {"name":"app-shell","installMode":"prefetch","resources":{"files":["/index.html","/manifest.webmanifest","/*.css","/*.js","/assets/icons/**","/assets/illustrations/**"]}},
-  {"name":"core-learning","installMode":"prefetch","updateMode":"prefetch","resources":{"files":["/assets/i18n/**","/assets/content/**"]}},
-  {"name":"media","installMode":"lazy","updateMode":"lazy","resources":{"files":["/assets/images/**","/assets/audio/**"]}}
- ]
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js",
+          "/assets/icons/**",
+          "/assets/illustrations/**"
+        ]
+      }
+    },
+    {
+      "name": "core-learning",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": { "files": ["/assets/i18n/**", "/assets/content/**"] }
+    },
+    {
+      "name": "media",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "resources": { "files": ["/assets/images/**", "/assets/audio/**"] }
+    }
+  ]
 }

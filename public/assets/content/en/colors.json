@@ -10,9 +10,7 @@
       "shortDescription": "Let’s learn: red.",
       "emoji": "🔴",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/red.mp3",
       "audioAvailable": false,
@@ -25,9 +23,7 @@
       "shortDescription": "Let’s learn: blue.",
       "emoji": "🔵",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/blue.mp3",
       "audioAvailable": false,
@@ -40,9 +36,7 @@
       "shortDescription": "Let’s learn: yellow.",
       "emoji": "🟡",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/yellow.mp3",
       "audioAvailable": false,
@@ -55,9 +49,7 @@
       "shortDescription": "Let’s learn: green.",
       "emoji": "🟢",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/green.mp3",
       "audioAvailable": false,
@@ -70,9 +62,7 @@
       "shortDescription": "Let’s learn: orange.",
       "emoji": "🟠",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/orange.mp3",
       "audioAvailable": false,
@@ -85,9 +75,7 @@
       "shortDescription": "Let’s learn: purple.",
       "emoji": "🟣",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/purple.mp3",
       "audioAvailable": false,
@@ -100,9 +88,7 @@
       "shortDescription": "Let’s learn: pink.",
       "emoji": "🌸",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/pink.mp3",
       "audioAvailable": false,
@@ -115,9 +101,7 @@
       "shortDescription": "Let’s learn: brown.",
       "emoji": "🟤",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/brown.mp3",
       "audioAvailable": false,
@@ -130,9 +114,7 @@
       "shortDescription": "Let’s learn: black.",
       "emoji": "⚫",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/black.mp3",
       "audioAvailable": false,
@@ -145,9 +127,7 @@
       "shortDescription": "Let’s learn: white.",
       "emoji": "⚪",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/en/colors/white.mp3",
       "audioAvailable": false,

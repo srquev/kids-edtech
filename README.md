@@ -28,6 +28,7 @@ npm start
 Open `http://localhost:4200`. The first visit opens onboarding. Create a nickname and choose a language. Settings and additional profiles live behind Parent Zone in the profile button or desktop sidebar.
 
 ```sh
+npm run validate:content
 npm run lint
 npm run test:unit
 npm run build

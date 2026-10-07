@@ -1,8 +1,25 @@
 import { Injectable, signal } from '@angular/core';
 import { LocalState, Progress } from '../models';
 
-export const emptyProgress = (): Progress => ({ concepts: {}, activities: [], stars: 0, dailySeconds: {} });
-export const initialState = (): LocalState => ({ version: 1, profiles: [], activeProfileId: null, settings: { voice: true, effects: true, muted: false, haptics: false, dailyGoal: 5 }, progress: {} });
+export const emptyProgress = (): Progress => ({
+  concepts: {},
+  activities: [],
+  stars: 0,
+  dailySeconds: {},
+});
+export const initialState = (): LocalState => ({
+  version: 1,
+  profiles: [],
+  activeProfileId: null,
+  settings: {
+    voice: true,
+    effects: true,
+    muted: false,
+    haptics: false,
+    dailyGoal: 5,
+  },
+  progress: {},
+});
 export abstract class StorageAdapter {
   abstract read(): Promise<LocalState | undefined>;
   abstract write(state: LocalState): Promise<void>;
@@ -24,8 +41,12 @@ export class IndexedDbAdapter extends StorageAdapter {
   async read(): Promise<LocalState | undefined> {
     const db = await this.open();
     return new Promise((resolve, reject) => {
-      const request = db.transaction('state').objectStore('state').get('family');
-      request.onsuccess = () => resolve(request.result as LocalState | undefined);
+      const request = db
+        .transaction('state')
+        .objectStore('state')
+        .get('family');
+      request.onsuccess = () =>
+        resolve(request.result as LocalState | undefined);
       request.onerror = () => reject(request.error);
     });
   }
@@ -47,20 +68,36 @@ export class IndexedDbAdapter extends StorageAdapter {
 export class LocalRepository {
   readonly state = signal<LocalState>(initialState());
   readonly unavailable = signal(false);
+  private compatible = true;
   private writes: Promise<void> = Promise.resolve();
   constructor(private readonly adapter: StorageAdapter) {}
   async load(): Promise<void> {
     try {
       const data = await this.adapter.read();
-      if (data?.version === 1 && Array.isArray(data.profiles) && data.progress && data.settings) this.state.set(data);
-      else if (data) this.unavailable.set(true);
-    } catch { this.unavailable.set(true); }
+      if (
+        data?.version === 1 &&
+        Array.isArray(data.profiles) &&
+        data.progress &&
+        data.settings
+      )
+        this.state.set(data);
+      else if (data) {
+        this.compatible = false;
+        this.unavailable.set(true);
+      }
+    } catch {
+      this.unavailable.set(true);
+    }
   }
   update(change: (state: LocalState) => LocalState): Promise<void> {
+    if (!this.compatible) return Promise.resolve();
     const next = change(this.state());
     this.state.set(next);
     // Serialize snapshots; a slow older write must never overwrite a newer answer.
-    this.writes = this.writes.then(() => this.adapter.write(next)).then(() => this.unavailable.set(false)).catch(() => this.unavailable.set(true));
+    this.writes = this.writes
+      .then(() => this.adapter.write(next))
+      .then(() => this.unavailable.set(false))
+      .catch(() => this.unavailable.set(true));
     return this.writes;
   }
 }

@@ -10,9 +10,7 @@
       "shortDescription": "Let’s learn: 1.",
       "emoji": "1",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/1.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "Let’s learn: 2.",
       "emoji": "2",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/2.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "Let’s learn: 3.",
       "emoji": "3",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/3.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "Let’s learn: 4.",
       "emoji": "4",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/4.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "Let’s learn: 5.",
       "emoji": "5",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/5.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "Let’s learn: 6.",
       "emoji": "6",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/6.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "Let’s learn: 7.",
       "emoji": "7",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/7.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "Let’s learn: 8.",
       "emoji": "8",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/8.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "Let’s learn: 9.",
       "emoji": "9",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/9.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "Let’s learn: 10.",
       "emoji": "10",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/en/numbers/10.mp3",
       "audioAvailable": false

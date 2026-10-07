@@ -10,9 +10,7 @@
       "shortDescription": "A circle is round, with no corners.",
       "emoji": "●",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/circle.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "A square has four equal sides.",
       "emoji": "■",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/square.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "A triangle has three sides.",
       "emoji": "▲",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/triangle.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "A rectangle has four corners.",
       "emoji": "▬",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/rectangle.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "An oval is like a stretched circle.",
       "emoji": "⬭",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/oval.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "Can you count the points on this star?",
       "emoji": "★",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/star.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "A heart shape can be a way to show love.",
       "emoji": "♥",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/heart.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "This diamond shape has four sides.",
       "emoji": "◆",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/en/shapes/diamond.mp3",
       "audioAvailable": false

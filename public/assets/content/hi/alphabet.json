@@ -10,9 +10,7 @@
       "shortDescription": "आओ सीखें: ए।",
       "emoji": "A",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/a.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "आओ सीखें: बी।",
       "emoji": "B",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/b.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "आओ सीखें: सी।",
       "emoji": "C",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/c.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "आओ सीखें: डी।",
       "emoji": "D",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/d.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "आओ सीखें: ई।",
       "emoji": "E",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/e.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "आओ सीखें: एफ।",
       "emoji": "F",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/f.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "आओ सीखें: जी।",
       "emoji": "G",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/g.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "आओ सीखें: एच।",
       "emoji": "H",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/h.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "आओ सीखें: आई।",
       "emoji": "I",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/i.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "आओ सीखें: जे।",
       "emoji": "J",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/j.mp3",
       "audioAvailable": false
@@ -150,9 +130,7 @@
       "shortDescription": "आओ सीखें: के।",
       "emoji": "K",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/k.mp3",
       "audioAvailable": false
@@ -164,9 +142,7 @@
       "shortDescription": "आओ सीखें: एल।",
       "emoji": "L",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/l.mp3",
       "audioAvailable": false
@@ -178,9 +154,7 @@
       "shortDescription": "आओ सीखें: एम।",
       "emoji": "M",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/m.mp3",
       "audioAvailable": false
@@ -192,9 +166,7 @@
       "shortDescription": "आओ सीखें: एन।",
       "emoji": "N",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/n.mp3",
       "audioAvailable": false
@@ -206,9 +178,7 @@
       "shortDescription": "आओ सीखें: ओ।",
       "emoji": "O",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/o.mp3",
       "audioAvailable": false
@@ -220,9 +190,7 @@
       "shortDescription": "आओ सीखें: पी।",
       "emoji": "P",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/p.mp3",
       "audioAvailable": false
@@ -234,9 +202,7 @@
       "shortDescription": "आओ सीखें: क्यू।",
       "emoji": "Q",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/q.mp3",
       "audioAvailable": false
@@ -248,9 +214,7 @@
       "shortDescription": "आओ सीखें: आर।",
       "emoji": "R",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/r.mp3",
       "audioAvailable": false
@@ -262,9 +226,7 @@
       "shortDescription": "आओ सीखें: एस।",
       "emoji": "S",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/s.mp3",
       "audioAvailable": false
@@ -276,9 +238,7 @@
       "shortDescription": "आओ सीखें: टी।",
       "emoji": "T",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/t.mp3",
       "audioAvailable": false
@@ -290,9 +250,7 @@
       "shortDescription": "आओ सीखें: यू।",
       "emoji": "U",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/u.mp3",
       "audioAvailable": false
@@ -304,9 +262,7 @@
       "shortDescription": "आओ सीखें: वी।",
       "emoji": "V",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/v.mp3",
       "audioAvailable": false
@@ -318,9 +274,7 @@
       "shortDescription": "आओ सीखें: डब्ल्यू।",
       "emoji": "W",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/w.mp3",
       "audioAvailable": false
@@ -332,9 +286,7 @@
       "shortDescription": "आओ सीखें: एक्स।",
       "emoji": "X",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/x.mp3",
       "audioAvailable": false
@@ -346,9 +298,7 @@
       "shortDescription": "आओ सीखें: वाई।",
       "emoji": "Y",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/y.mp3",
       "audioAvailable": false
@@ -360,9 +310,7 @@
       "shortDescription": "आओ सीखें: ज़ेड।",
       "emoji": "Z",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/hi/alphabet/z.mp3",
       "audioAvailable": false

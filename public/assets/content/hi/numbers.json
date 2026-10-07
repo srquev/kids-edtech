@@ -10,9 +10,7 @@
       "shortDescription": "आओ सीखें: एक।",
       "emoji": "1",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/1.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "आओ सीखें: दो।",
       "emoji": "2",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/2.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "आओ सीखें: तीन।",
       "emoji": "3",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/3.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "आओ सीखें: चार।",
       "emoji": "4",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/4.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "आओ सीखें: पाँच।",
       "emoji": "5",
       "difficulty": 1,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/5.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "आओ सीखें: छह।",
       "emoji": "6",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/6.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "आओ सीखें: सात।",
       "emoji": "7",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/7.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "आओ सीखें: आठ।",
       "emoji": "8",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/8.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "आओ सीखें: नौ।",
       "emoji": "9",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/9.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "आओ सीखें: दस।",
       "emoji": "10",
       "difficulty": 2,
-      "tags": [
-        "numbers"
-      ],
+      "tags": ["numbers"],
       "enabled": true,
       "audio": "/assets/audio/hi/numbers/10.mp3",
       "audioAvailable": false

@@ -10,9 +10,7 @@
       "shortDescription": "वृत्त गोल होता है। उसका कोई कोना नहीं होता।",
       "emoji": "●",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/circle.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "वर्ग की चार बराबर भुजाएँ होती हैं।",
       "emoji": "■",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/square.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "त्रिभुज की तीन भुजाएँ होती हैं।",
       "emoji": "▲",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/triangle.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "आयत के चार कोने होते हैं।",
       "emoji": "▬",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/rectangle.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "अंडाकार एक खिंचे हुए वृत्त जैसा होता है।",
       "emoji": "⬭",
       "difficulty": 1,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/oval.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "क्या आप इस तारे की नोकें गिन सकते हैं?",
       "emoji": "★",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/star.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "दिल का आकार प्यार दिखाने का एक तरीका है।",
       "emoji": "♥",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/heart.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "इस हीरे के आकार की चार भुजाएँ हैं।",
       "emoji": "◆",
       "difficulty": 2,
-      "tags": [
-        "shapes"
-      ],
+      "tags": ["shapes"],
       "enabled": true,
       "audio": "/assets/audio/hi/shapes/diamond.mp3",
       "audioAvailable": false

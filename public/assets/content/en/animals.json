@@ -10,9 +10,7 @@
       "shortDescription": "An elephant uses its long trunk to pick things up.",
       "emoji": "🐘",
       "difficulty": 1,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/elephant.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "A lion has a loud roar.",
       "emoji": "🦁",
       "difficulty": 1,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/lion.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "A tiger has stripes on its fur.",
       "emoji": "🐯",
       "difficulty": 1,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/tiger.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "A dog wags its tail.",
       "emoji": "🐶",
       "difficulty": 1,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/dog.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "A cat has soft paws and long whiskers.",
       "emoji": "🐱",
       "difficulty": 1,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/cat.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "A rabbit has long ears and likes to hop.",
       "emoji": "🐰",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/rabbit.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "A bear has big paws.",
       "emoji": "🐻",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/bear.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "A panda likes to eat bamboo.",
       "emoji": "🐼",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/panda.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "A monkey can climb trees.",
       "emoji": "🐵",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/monkey.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "A fox has a fluffy tail.",
       "emoji": "🦊",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/fox.mp3",
       "audioAvailable": false
@@ -150,9 +130,7 @@
       "shortDescription": "A cow eats grass.",
       "emoji": "🐮",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/cow.mp3",
       "audioAvailable": false
@@ -164,9 +142,7 @@
       "shortDescription": "A pig has a round snout.",
       "emoji": "🐷",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/pig.mp3",
       "audioAvailable": false
@@ -178,9 +154,7 @@
       "shortDescription": "A horse runs on four hooves.",
       "emoji": "🐴",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/horse.mp3",
       "audioAvailable": false
@@ -192,9 +166,7 @@
       "shortDescription": "A sheep has a woolly coat.",
       "emoji": "🐑",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/sheep.mp3",
       "audioAvailable": false
@@ -206,9 +178,7 @@
       "shortDescription": "A giraffe has a very long neck.",
       "emoji": "🦒",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/giraffe.mp3",
       "audioAvailable": false
@@ -220,9 +190,7 @@
       "shortDescription": "A zebra has black and white stripes.",
       "emoji": "🦓",
       "difficulty": 2,
-      "tags": [
-        "animals"
-      ],
+      "tags": ["animals"],
       "enabled": true,
       "audio": "/assets/audio/en/animals/zebra.mp3",
       "audioAvailable": false

@@ -1,22 +1,43 @@
-import { ErrorHandler, inject, Injectable, isDevMode, signal } from '@angular/core';
+import {
+  ErrorHandler,
+  inject,
+  Injectable,
+  isDevMode,
+  signal,
+} from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import { FamilyService } from '../storage/family.service';
 
 @Injectable({ providedIn: 'root' })
 export class AppErrorHandler implements ErrorHandler {
   readonly failed = signal(false);
-  handleError(error: unknown): void { this.failed.set(true); if (isDevMode()) console.error(error); }
+  handleError(error: unknown): void {
+    this.failed.set(true);
+    if (isDevMode()) console.error(error);
+  }
 }
 @Injectable({ providedIn: 'root' })
 export class HapticAdapter {
   private readonly family = inject(FamilyService);
-  success(): void { if (this.family.settings().haptics && 'vibrate' in navigator) navigator.vibrate(35); }
+  success(): void {
+    if (this.family.settings().haptics && 'vibrate' in navigator)
+      navigator.vibrate(35);
+  }
 }
-export type AnalyticsEvent = 'lesson_started' | 'lesson_completed' | 'game_started' | 'game_completed' | 'answer_correct' | 'answer_retry' | 'parent_dashboard_opened';
+export type AnalyticsEvent =
+  | 'lesson_started'
+  | 'lesson_completed'
+  | 'game_started'
+  | 'game_completed'
+  | 'answer_correct'
+  | 'answer_retry'
+  | 'parent_dashboard_opened';
 @Injectable({ providedIn: 'root' })
 export class AnalyticsService {
   // Intentionally no network, identifiers, or persistent behavioral event stream.
-  track(_event: AnalyticsEvent): void { /* Future opt-in implementation belongs at this boundary. */ }
+  track(_event: AnalyticsEvent): void {
+    /* Future opt-in implementation belongs at this boundary. */
+  }
 }
 @Injectable({ providedIn: 'root' })
 export class UpdateService {
@@ -28,9 +49,17 @@ export class UpdateService {
     window.addEventListener('online', () => this.offline.set(false));
     window.addEventListener('offline', () => this.offline.set(true));
     if (this.updates.isEnabled) {
-      this.updates.versionUpdates.subscribe(event => { if (event.type === 'VERSION_READY') this.available.set(true); if (event.type === 'VERSION_DETECTED') this.offlineReady.set(false); });
-      if ('serviceWorker' in navigator) void navigator.serviceWorker.ready.then(() => this.offlineReady.set(true));
+      this.updates.versionUpdates.subscribe((event) => {
+        if (event.type === 'VERSION_READY') this.available.set(true);
+        if (event.type === 'VERSION_DETECTED') this.offlineReady.set(false);
+      });
+      if ('serviceWorker' in navigator)
+        void navigator.serviceWorker.ready.then(() =>
+          this.offlineReady.set(true),
+        );
     }
   }
-  reload(): void { location.reload(); }
+  reload(): void {
+    location.reload();
+  }
 }

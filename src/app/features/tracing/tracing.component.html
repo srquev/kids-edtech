@@ -1,1 +1,108 @@
-<div class="page"><div class="page-heading"><div><h1>{{i.t('trace.title')}}</h1><p>{{i.t('trace.subtitle')}}</p></div></div>@if(loading()){<div class="state" role="status">{{i.t('common.loading')}}</div>}@else if(failed()){<div class="state"><p>{{i.t('common.error')}}</p><button class="button" (click)="load()">{{i.t('common.retry')}}</button></div>}@else{<section class="trace-layout"><div class="trace-picker panel">@for(type of ['letter','number','shape'];track type){<h3>{{i.t('trace.'+type)}}</h3><div class="trace-options">@for(def of definitions();track def.id){@if(def.type===type){<button [class.selected]="active()?.id===def.id" [attr.aria-pressed]="active()?.id===def.id" [attr.aria-label]="label(def)" (click)="select(def)">{{def.type==='shape'?shapeLabel(def.id):def.id}}</button>}}</div>}</div><div class="trace-area panel"><p>{{i.t('trace.instruction')}}</p><svg #board class="trace-board" tabindex="0" role="application" [attr.aria-label]="i.t('trace.instruction')" aria-describedby="trace-keyboard" viewBox="0 0 300 300" (pointerdown)="down($event)" (pointermove)="move($event)" (pointerup)="up()" (pointercancel)="up()" (lostpointercapture)="up()" (keydown)="key($event)" (keyup)="keyUp($event)"><path d="M20 50H280M20 140H280M20 230H280" class="ruled"/>@for(path of active()?.paths;track $index){<path [attr.d]="path" class="guide"/>}<circle [attr.cx]="startPoint().x" [attr.cy]="startPoint().y" r="11" class="start"/><text [attr.x]="startPoint().x" [attr.y]="startPoint().y+4" text-anchor="middle" class="start-number">•</text>@for(path of drawing();track $index){<path [attr.d]="path" class="drawn"/>}<circle class="keyboard-pen" [attr.cx]="pen().x" [attr.cy]="pen().y" r="5"/></svg><p id="trace-keyboard" class="keyboard-help">{{i.t('trace.keyboard')}}</p><div class="progress-track" role="progressbar" [attr.aria-label]="i.t('nav.trace')" [attr.aria-valuenow]="percentage()" aria-valuemin="0" aria-valuemax="100"><span [style.width.%]="percentage()"></span></div><p class="trace-status" aria-live="polite">{{complete()?i.t('trace.complete'):i.t('trace.progress',{count:percentage()})}}</p><button class="button secondary" (click)="reset()">↻ {{i.t('trace.reset')}}</button></div></section>}</div>
+<div class="page">
+  <div class="page-heading">
+    <div>
+      <h1>{{ i.t("trace.title") }}</h1>
+      <p>{{ i.t("trace.subtitle") }}</p>
+    </div>
+  </div>
+  @if (loading()) {
+    <div class="state" role="status">{{ i.t("common.loading") }}</div>
+  } @else if (failed()) {
+    <div class="state">
+      <p>{{ i.t("common.error") }}</p>
+      <button class="button" (click)="load()">{{ i.t("common.retry") }}</button>
+    </div>
+  } @else {
+    <section class="trace-layout">
+      <div class="trace-picker panel">
+        @for (type of ["letter", "number", "shape"]; track type) {
+          <h3>{{ i.t("trace." + type) }}</h3>
+          <div class="trace-options">
+            @for (def of definitions(); track def.id) {
+              @if (def.type === type) {
+                <button
+                  [class.selected]="active()?.id === def.id"
+                  [attr.aria-pressed]="active()?.id === def.id"
+                  [attr.aria-label]="label(def)"
+                  (click)="select(def)"
+                >
+                  {{ def.type === "shape" ? shapeLabel(def.id) : def.id }}
+                </button>
+              }
+            }
+          </div>
+        }
+      </div>
+      <div class="trace-area panel">
+        <p>{{ i.t("trace.instruction") }}</p>
+        <svg
+          #board
+          class="trace-board"
+          tabindex="0"
+          role="application"
+          [attr.aria-label]="i.t('trace.instruction')"
+          aria-describedby="trace-keyboard"
+          viewBox="0 0 300 300"
+          (pointerdown)="down($event)"
+          (pointermove)="move($event)"
+          (pointerup)="up()"
+          (pointercancel)="up()"
+          (lostpointercapture)="up()"
+          (keydown)="key($event)"
+          (keyup)="keyUp($event)"
+        >
+          <path d="M20 50H280M20 140H280M20 230H280" class="ruled" />
+          @for (path of active()?.paths; track $index) {
+            <path [attr.d]="path" class="guide" />
+          }
+          <circle
+            [attr.cx]="startPoint().x"
+            [attr.cy]="startPoint().y"
+            r="11"
+            class="start"
+          />
+          <text
+            [attr.x]="startPoint().x"
+            [attr.y]="startPoint().y + 4"
+            text-anchor="middle"
+            class="start-number"
+          >
+            •
+          </text>
+          @for (path of drawing(); track $index) {
+            <path [attr.d]="path" class="drawn" />
+          }
+          <circle
+            class="keyboard-pen"
+            [attr.cx]="pen().x"
+            [attr.cy]="pen().y"
+            r="5"
+          />
+        </svg>
+        <p id="trace-keyboard" class="keyboard-help">
+          {{ i.t("trace.keyboard") }}
+        </p>
+        <div
+          class="progress-track"
+          role="progressbar"
+          [attr.aria-label]="i.t('nav.trace')"
+          [attr.aria-valuenow]="percentage()"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <span [style.width.%]="percentage()"></span>
+        </div>
+        <p class="trace-status" aria-live="polite">
+          {{
+            complete()
+              ? i.t("trace.complete")
+              : i.t("trace.progress", { count: percentage() })
+          }}
+        </p>
+        <button class="button secondary" (click)="reset()">
+          ↻ {{ i.t("trace.reset") }}
+        </button>
+      </div>
+    </section>
+  }
+</div>

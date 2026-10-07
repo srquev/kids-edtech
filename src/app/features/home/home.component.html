@@ -1,13 +1,131 @@
 <div class="page">
-  <div class="home-greeting"><div><span class="eyebrow">{{i.t('home.eyebrow')}}</span><h1>{{i.t('home.hello', {name:family.active()?.nickname || i.t('onboard.defaultName')})}} <span class="wave" aria-hidden="true">☀</span></h1><p>{{i.t('home.subtitle')}}</p></div><span class="greeting-flower" aria-hidden="true">✳</span></div>
-  <div class="home-layout"><div class="adventure-column">
-    <section class="hero"><div class="hero-copy"><span class="hero-pill"><span aria-hidden="true">✦</span> {{i.t('app.tagline')}}</span><h2>{{i.t('home.heroTitle')}}</h2><p>{{i.t('home.heroText')}}</p><a class="button" routerLink="/learn">{{i.t('home.heroAction')}} <span aria-hidden="true">→</span></a></div><div class="hero-art"><span class="orbit orbit-one" aria-hidden="true"></span><span class="orbit orbit-two" aria-hidden="true"></span><img src="/assets/illustrations/mascot.svg" alt="" width="350" height="290" fetchpriority="high"/><span class="hero-note">{{i.t('home.heroNote')}}</span></div><span class="hero-spark" aria-hidden="true">✦</span></section>
-    <section class="categories-section"><div class="section-title"><div><h2>{{i.t('home.categories')}}</h2><p>{{i.t('home.categoriesSub')}}</p></div><a class="text-link" routerLink="/learn">{{i.t('common.all')}} <span aria-hidden="true">→</span></a></div><div class="category-grid">@for (category of content.categories(); track category.id) { <app-category-card [category]="category"/> }</div></section>
-    <section class="play-banner"><span class="play-art" aria-hidden="true"><span>✿</span><span>✦</span></span><div><h3>{{i.t('home.practice')}}</h3><p>{{i.t('home.practiceSub')}}</p></div><a class="button light" routerLink="/play">{{i.t('home.practiceAction')}} <span aria-hidden="true">→</span></a></section>
-  </div><aside class="journey-column">
-    <section class="daily-card panel"><div class="daily-label"><span class="eyebrow">{{i.t('home.today')}}</span><span aria-hidden="true">☀</span></div><h3>{{i.t('home.daily')}}</h3><p>{{i.t('home.dailySub')}}</p><div class="goal-ring" [style.--progress]="goalPercent + '%'"><div><span aria-hidden="true">🌱</span><strong>{{progress.todayMinutes()}}<small> / {{family.settings().dailyGoal}}</small></strong><span>{{i.t('common.minutes')}}</span></div></div><p class="daily-message">{{i.t(progress.goalReached() ? 'home.dailyDone' : 'home.dailyEmpty')}}</p><div class="daily-dots" aria-hidden="true"><span [class.filled]="goalPercent > 0">✦</span><i></i><span [class.filled]="goalPercent >= 50">✦</span><i></i><span [class.filled]="goalPercent >= 100">★</span></div></section>
-    <section class="little-steps panel"><h3>{{i.t('home.progress')}}</h3><div class="step-row"><span class="step-icon yellow" aria-hidden="true">★</span><span>{{i.t('home.stars')}}</span><strong>{{progress.data().stars}}</strong></div><div class="step-row"><span class="step-icon mint" aria-hidden="true">⚑</span><span>{{i.t('home.concepts')}}</span><strong>{{progress.concepts().length}}</strong></div><a class="text-link" routerLink="/rewards">{{i.t('nav.rewards')}} <span aria-hidden="true">→</span></a></section>
-    <a class="practice-card" routerLink="/play/find-it" [queryParams]="{practice:true}"><span aria-hidden="true">✧</span><strong>{{i.t('home.practiceMe')}}</strong><span aria-hidden="true">→</span></a>
-    <section class="parent-tip"><span class="tip-icon" aria-hidden="true">♡</span><span class="eyebrow">{{i.t('home.tip')}}</span><p>{{i.t('home.tipText')}}</p></section>
-  </aside></div>
+  <div class="home-greeting">
+    <div>
+      <span class="eyebrow">{{ i.t("home.eyebrow") }}</span>
+      <h1>
+        {{
+          i.t("home.hello", {
+            name: family.active()?.nickname || i.t("onboard.defaultName"),
+          })
+        }}
+        <span class="wave" aria-hidden="true">☀</span>
+      </h1>
+      <p>{{ i.t("home.subtitle") }}</p>
+    </div>
+    <span class="greeting-flower" aria-hidden="true">✳</span>
+  </div>
+  <div class="home-layout">
+    <div class="adventure-column">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="hero-pill"
+            ><span aria-hidden="true">✦</span> {{ i.t("app.tagline") }}</span
+          >
+          <h2>{{ i.t("home.heroTitle") }}</h2>
+          <p>{{ i.t("home.heroText") }}</p>
+          <a class="button" routerLink="/learn"
+            >{{ i.t("home.heroAction") }} <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <div class="hero-art">
+          <span class="orbit orbit-one" aria-hidden="true"></span
+          ><span class="orbit orbit-two" aria-hidden="true"></span
+          ><img
+            src="/assets/illustrations/mascot.svg"
+            alt=""
+            width="350"
+            height="290"
+            fetchpriority="high"
+          /><span class="hero-note">{{ i.t("home.heroNote") }}</span>
+        </div>
+        <span class="hero-spark" aria-hidden="true">✦</span>
+      </section>
+      <section class="categories-section">
+        <div class="section-title">
+          <div>
+            <h2>{{ i.t("home.categories") }}</h2>
+            <p>{{ i.t("home.categoriesSub") }}</p>
+          </div>
+          <a class="text-link" routerLink="/learn"
+            >{{ i.t("common.all") }} <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <div class="category-grid">
+          @for (category of content.categories(); track category.id) {
+            <app-category-card [category]="category" />
+          }
+        </div>
+      </section>
+      <section class="play-banner">
+        <span class="play-art" aria-hidden="true"
+          ><span>✿</span><span>✦</span></span
+        >
+        <div>
+          <h3>{{ i.t("home.practice") }}</h3>
+          <p>{{ i.t("home.practiceSub") }}</p>
+        </div>
+        <a class="button light" routerLink="/play"
+          >{{ i.t("home.practiceAction") }} <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </div>
+    <aside class="journey-column">
+      <section class="daily-card panel">
+        <div class="daily-label">
+          <span class="eyebrow">{{ i.t("home.today") }}</span
+          ><span aria-hidden="true">☀</span>
+        </div>
+        <h3>{{ i.t("home.daily") }}</h3>
+        <p>{{ i.t("home.dailySub") }}</p>
+        <div class="goal-ring" [style.--progress]="goalPercent + '%'">
+          <div>
+            <span aria-hidden="true">🌱</span
+            ><strong
+              >{{ progress.todayMinutes()
+              }}<small> / {{ family.settings().dailyGoal }}</small></strong
+            ><span>{{ i.t("common.minutes") }}</span>
+          </div>
+        </div>
+        <p class="daily-message">
+          {{
+            i.t(progress.goalReached() ? "home.dailyDone" : "home.dailyEmpty")
+          }}
+        </p>
+        <div class="daily-dots" aria-hidden="true">
+          <span [class.filled]="goalPercent > 0">✦</span><i></i
+          ><span [class.filled]="goalPercent >= 50">✦</span><i></i
+          ><span [class.filled]="goalPercent >= 100">★</span>
+        </div>
+      </section>
+      <section class="little-steps panel">
+        <h3>{{ i.t("home.progress") }}</h3>
+        <div class="step-row">
+          <span class="step-icon yellow" aria-hidden="true">★</span
+          ><span>{{ i.t("home.stars") }}</span
+          ><strong>{{ progress.data().stars }}</strong>
+        </div>
+        <div class="step-row">
+          <span class="step-icon mint" aria-hidden="true">⚑</span
+          ><span>{{ i.t("home.concepts") }}</span
+          ><strong>{{ progress.concepts().length }}</strong>
+        </div>
+        <a class="text-link" routerLink="/rewards"
+          >{{ i.t("nav.rewards") }} <span aria-hidden="true">→</span></a
+        >
+      </section>
+      <a
+        class="practice-card"
+        routerLink="/play/find-it"
+        [queryParams]="{ practice: true }"
+        ><span aria-hidden="true">✧</span
+        ><strong>{{ i.t("home.practiceMe") }}</strong
+        ><span aria-hidden="true">→</span></a
+      >
+      <section class="parent-tip">
+        <span class="tip-icon" aria-hidden="true">♡</span
+        ><span class="eyebrow">{{ i.t("home.tip") }}</span>
+        <p>{{ i.t("home.tipText") }}</p>
+      </section>
+    </aside>
+  </div>
 </div>

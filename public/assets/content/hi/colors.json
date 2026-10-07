@@ -10,9 +10,7 @@
       "shortDescription": "आओ सीखें: लाल।",
       "emoji": "🔴",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/red.mp3",
       "audioAvailable": false,
@@ -25,9 +23,7 @@
       "shortDescription": "आओ सीखें: नीला।",
       "emoji": "🔵",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/blue.mp3",
       "audioAvailable": false,
@@ -40,9 +36,7 @@
       "shortDescription": "आओ सीखें: पीला।",
       "emoji": "🟡",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/yellow.mp3",
       "audioAvailable": false,
@@ -55,9 +49,7 @@
       "shortDescription": "आओ सीखें: हरा।",
       "emoji": "🟢",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/green.mp3",
       "audioAvailable": false,
@@ -70,9 +62,7 @@
       "shortDescription": "आओ सीखें: नारंगी।",
       "emoji": "🟠",
       "difficulty": 1,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/orange.mp3",
       "audioAvailable": false,
@@ -85,9 +75,7 @@
       "shortDescription": "आओ सीखें: बैंगनी।",
       "emoji": "🟣",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/purple.mp3",
       "audioAvailable": false,
@@ -100,9 +88,7 @@
       "shortDescription": "आओ सीखें: गुलाबी।",
       "emoji": "🌸",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/pink.mp3",
       "audioAvailable": false,
@@ -115,9 +101,7 @@
       "shortDescription": "आओ सीखें: भूरा।",
       "emoji": "🟤",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/brown.mp3",
       "audioAvailable": false,
@@ -130,9 +114,7 @@
       "shortDescription": "आओ सीखें: काला।",
       "emoji": "⚫",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/black.mp3",
       "audioAvailable": false,
@@ -145,9 +127,7 @@
       "shortDescription": "आओ सीखें: सफ़ेद।",
       "emoji": "⚪",
       "difficulty": 2,
-      "tags": [
-        "colors"
-      ],
+      "tags": ["colors"],
       "enabled": true,
       "audio": "/assets/audio/hi/colors/white.mp3",
       "audioAvailable": false,

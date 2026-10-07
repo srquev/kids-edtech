@@ -10,9 +10,7 @@
       "shortDescription": "सेब के अंदर छोटे बीज होते हैं।",
       "emoji": "🍎",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/apple.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "केला छीलने पर अंदर मुलायम फल मिलता है।",
       "emoji": "🍌",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/banana.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "अंगूर गुच्छों में उगते हैं।",
       "emoji": "🍇",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/grapes.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "संतरे के अंदर रसीली फाँकें होती हैं।",
       "emoji": "🍊",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/orange.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "स्ट्रॉबेरी के बाहर छोटे-छोटे बीज होते हैं।",
       "emoji": "🍓",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/strawberry.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "तरबूज का छिलका मोटा और हरा होता है।",
       "emoji": "🍉",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/watermelon.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "अनानास के ऊपर नुकीली पत्तियाँ होती हैं।",
       "emoji": "🍍",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/pineapple.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "आम के अंदर एक बड़ी गुठली होती है।",
       "emoji": "🥭",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/mango.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "नाशपाती नीचे से चौड़ी होती है।",
       "emoji": "🍐",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/pear.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "चेरी छोटी और गोल होती है।",
       "emoji": "🍒",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/hi/fruits/cherry.mp3",
       "audioAvailable": false

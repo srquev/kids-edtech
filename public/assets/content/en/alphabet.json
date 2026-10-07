@@ -10,9 +10,7 @@
       "shortDescription": "A is a letter. A for Apple.",
       "emoji": "A",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/a.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "B is a letter. B for Ball.",
       "emoji": "B",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/b.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "C is a letter. C for Cat.",
       "emoji": "C",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/c.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "D is a letter. D for Dog.",
       "emoji": "D",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/d.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "E is a letter. E for Elephant.",
       "emoji": "E",
       "difficulty": 1,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/e.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "F is a letter. F for Fish.",
       "emoji": "F",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/f.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "G is a letter. G for Grapes.",
       "emoji": "G",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/g.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "H is a letter. H for Hat.",
       "emoji": "H",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/h.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "I is a letter. I for Ice cream.",
       "emoji": "I",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/i.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "J is a letter. J for Juice.",
       "emoji": "J",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/j.mp3",
       "audioAvailable": false
@@ -150,9 +130,7 @@
       "shortDescription": "K is a letter. K for Kite.",
       "emoji": "K",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/k.mp3",
       "audioAvailable": false
@@ -164,9 +142,7 @@
       "shortDescription": "L is a letter. L for Lion.",
       "emoji": "L",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/l.mp3",
       "audioAvailable": false
@@ -178,9 +154,7 @@
       "shortDescription": "M is a letter. M for Moon.",
       "emoji": "M",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/m.mp3",
       "audioAvailable": false
@@ -192,9 +166,7 @@
       "shortDescription": "N is a letter. N for Nest.",
       "emoji": "N",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/n.mp3",
       "audioAvailable": false
@@ -206,9 +178,7 @@
       "shortDescription": "O is a letter. O for Orange.",
       "emoji": "O",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/o.mp3",
       "audioAvailable": false
@@ -220,9 +190,7 @@
       "shortDescription": "P is a letter. P for Panda.",
       "emoji": "P",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/p.mp3",
       "audioAvailable": false
@@ -234,9 +202,7 @@
       "shortDescription": "Q is a letter. Q for Queen.",
       "emoji": "Q",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/q.mp3",
       "audioAvailable": false
@@ -248,9 +214,7 @@
       "shortDescription": "R is a letter. R for Rabbit.",
       "emoji": "R",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/r.mp3",
       "audioAvailable": false
@@ -262,9 +226,7 @@
       "shortDescription": "S is a letter. S for Sun.",
       "emoji": "S",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/s.mp3",
       "audioAvailable": false
@@ -276,9 +238,7 @@
       "shortDescription": "T is a letter. T for Tiger.",
       "emoji": "T",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/t.mp3",
       "audioAvailable": false
@@ -290,9 +250,7 @@
       "shortDescription": "U is a letter. U for Umbrella.",
       "emoji": "U",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/u.mp3",
       "audioAvailable": false
@@ -304,9 +262,7 @@
       "shortDescription": "V is a letter. V for Van.",
       "emoji": "V",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/v.mp3",
       "audioAvailable": false
@@ -318,9 +274,7 @@
       "shortDescription": "W is a letter. W for Watermelon.",
       "emoji": "W",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/w.mp3",
       "audioAvailable": false
@@ -332,9 +286,7 @@
       "shortDescription": "X is a letter. X for Xylophone.",
       "emoji": "X",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/x.mp3",
       "audioAvailable": false
@@ -346,9 +298,7 @@
       "shortDescription": "Y is a letter. Y for Yo-yo.",
       "emoji": "Y",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/y.mp3",
       "audioAvailable": false
@@ -360,9 +310,7 @@
       "shortDescription": "Z is a letter. Z for Zebra.",
       "emoji": "Z",
       "difficulty": 2,
-      "tags": [
-        "alphabet"
-      ],
+      "tags": ["alphabet"],
       "enabled": true,
       "audio": "/assets/audio/en/alphabet/z.mp3",
       "audioAvailable": false

@@ -10,9 +10,7 @@
       "shortDescription": "An apple has tiny seeds inside.",
       "emoji": "🍎",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/apple.mp3",
       "audioAvailable": false
@@ -24,9 +22,7 @@
       "shortDescription": "Peel a banana to find the soft fruit inside.",
       "emoji": "🍌",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/banana.mp3",
       "audioAvailable": false
@@ -38,9 +34,7 @@
       "shortDescription": "Grapes grow together in bunches.",
       "emoji": "🍇",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/grapes.mp3",
       "audioAvailable": false
@@ -52,9 +46,7 @@
       "shortDescription": "An orange has juicy little segments inside.",
       "emoji": "🍊",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/orange.mp3",
       "audioAvailable": false
@@ -66,9 +58,7 @@
       "shortDescription": "A strawberry has tiny seeds on its outside.",
       "emoji": "🍓",
       "difficulty": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/strawberry.mp3",
       "audioAvailable": false
@@ -80,9 +70,7 @@
       "shortDescription": "A watermelon has a thick green rind.",
       "emoji": "🍉",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/watermelon.mp3",
       "audioAvailable": false
@@ -94,9 +82,7 @@
       "shortDescription": "A pineapple has a crown of pointy leaves.",
       "emoji": "🍍",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/pineapple.mp3",
       "audioAvailable": false
@@ -108,9 +94,7 @@
       "shortDescription": "A mango has one big seed inside.",
       "emoji": "🥭",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/mango.mp3",
       "audioAvailable": false
@@ -122,9 +106,7 @@
       "shortDescription": "A pear is wider at the bottom.",
       "emoji": "🍐",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/pear.mp3",
       "audioAvailable": false
@@ -136,9 +118,7 @@
       "shortDescription": "A cherry is small and round.",
       "emoji": "🍒",
       "difficulty": 2,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "enabled": true,
       "audio": "/assets/audio/en/fruits/cherry.mp3",
       "audioAvailable": false
