@@ -7,7 +7,7 @@
       "id": "elephant",
       "category": "animals",
       "name": "हाथी",
-      "shortDescription": "आओ सीखें: हाथी।",
+      "shortDescription": "हाथी अपनी लंबी सूँड़ से चीज़ें उठाता है।",
       "emoji": "🐘",
       "difficulty": 1,
       "tags": [
@@ -21,7 +21,7 @@
       "id": "lion",
       "category": "animals",
       "name": "शेर",
-      "shortDescription": "आओ सीखें: शेर।",
+      "shortDescription": "शेर ज़ोर से दहाड़ता है।",
       "emoji": "🦁",
       "difficulty": 1,
       "tags": [
@@ -35,7 +35,7 @@
       "id": "tiger",
       "category": "animals",
       "name": "बाघ",
-      "shortDescription": "आओ सीखें: बाघ।",
+      "shortDescription": "बाघ के शरीर पर धारियाँ होती हैं।",
       "emoji": "🐯",
       "difficulty": 1,
       "tags": [
@@ -49,7 +49,7 @@
       "id": "dog",
       "category": "animals",
       "name": "कुत्ता",
-      "shortDescription": "आओ सीखें: कुत्ता।",
+      "shortDescription": "कुत्ता अपनी पूँछ हिलाता है।",
       "emoji": "🐶",
       "difficulty": 1,
       "tags": [
@@ -63,7 +63,7 @@
       "id": "cat",
       "category": "animals",
       "name": "बिल्ली",
-      "shortDescription": "आओ सीखें: बिल्ली।",
+      "shortDescription": "बिल्ली के पंजे मुलायम होते हैं और मूँछें लंबी होती हैं।",
       "emoji": "🐱",
       "difficulty": 1,
       "tags": [
@@ -77,7 +77,7 @@
       "id": "rabbit",
       "category": "animals",
       "name": "खरगोश",
-      "shortDescription": "आओ सीखें: खरगोश।",
+      "shortDescription": "खरगोश के कान लंबे होते हैं और वह उछलता है।",
       "emoji": "🐰",
       "difficulty": 2,
       "tags": [
@@ -91,7 +91,7 @@
       "id": "bear",
       "category": "animals",
       "name": "भालू",
-      "shortDescription": "आओ सीखें: भालू।",
+      "shortDescription": "भालू के पंजे बड़े होते हैं।",
       "emoji": "🐻",
       "difficulty": 2,
       "tags": [
@@ -105,7 +105,7 @@
       "id": "panda",
       "category": "animals",
       "name": "पांडा",
-      "shortDescription": "आओ सीखें: पांडा।",
+      "shortDescription": "पांडा बाँस खाना पसंद करता है।",
       "emoji": "🐼",
       "difficulty": 2,
       "tags": [
@@ -119,7 +119,7 @@
       "id": "monkey",
       "category": "animals",
       "name": "बंदर",
-      "shortDescription": "आओ सीखें: बंदर।",
+      "shortDescription": "बंदर पेड़ों पर चढ़ सकता है।",
       "emoji": "🐵",
       "difficulty": 2,
       "tags": [
@@ -133,7 +133,7 @@
       "id": "fox",
       "category": "animals",
       "name": "लोमड़ी",
-      "shortDescription": "आओ सीखें: लोमड़ी।",
+      "shortDescription": "लोमड़ी की पूँछ फूली हुई होती है।",
       "emoji": "🦊",
       "difficulty": 2,
       "tags": [
@@ -147,7 +147,7 @@
       "id": "cow",
       "category": "animals",
       "name": "गाय",
-      "shortDescription": "आओ सीखें: गाय।",
+      "shortDescription": "गाय घास खाती है।",
       "emoji": "🐮",
       "difficulty": 2,
       "tags": [
@@ -161,7 +161,7 @@
       "id": "pig",
       "category": "animals",
       "name": "सूअर",
-      "shortDescription": "आओ सीखें: सूअर।",
+      "shortDescription": "सूअर की थूथन गोल होती है।",
       "emoji": "🐷",
       "difficulty": 2,
       "tags": [
@@ -175,7 +175,7 @@
       "id": "horse",
       "category": "animals",
       "name": "घोड़ा",
-      "shortDescription": "आओ सीखें: घोड़ा।",
+      "shortDescription": "घोड़ा चार खुरों पर दौड़ता है।",
       "emoji": "🐴",
       "difficulty": 2,
       "tags": [
@@ -189,7 +189,7 @@
       "id": "sheep",
       "category": "animals",
       "name": "भेड़",
-      "shortDescription": "आओ सीखें: भेड़।",
+      "shortDescription": "भेड़ के शरीर पर ऊन होती है।",
       "emoji": "🐑",
       "difficulty": 2,
       "tags": [
@@ -203,7 +203,7 @@
       "id": "giraffe",
       "category": "animals",
       "name": "जिराफ़",
-      "shortDescription": "आओ सीखें: जिराफ़।",
+      "shortDescription": "जिराफ़ की गर्दन बहुत लंबी होती है।",
       "emoji": "🦒",
       "difficulty": 2,
       "tags": [
@@ -217,7 +217,7 @@
       "id": "zebra",
       "category": "animals",
       "name": "ज़ेब्रा",
-      "shortDescription": "आओ सीखें: ज़ेब्रा।",
+      "shortDescription": "ज़ेब्रा पर काली और सफ़ेद धारियाँ होती हैं।",
       "emoji": "🦓",
       "difficulty": 2,
       "tags": [

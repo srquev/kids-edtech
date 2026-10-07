@@ -7,7 +7,7 @@
       "id": "circle",
       "category": "shapes",
       "name": "वृत्त",
-      "shortDescription": "आओ सीखें: वृत्त।",
+      "shortDescription": "वृत्त गोल होता है। उसका कोई कोना नहीं होता।",
       "emoji": "●",
       "difficulty": 1,
       "tags": [
@@ -21,7 +21,7 @@
       "id": "square",
       "category": "shapes",
       "name": "वर्ग",
-      "shortDescription": "आओ सीखें: वर्ग।",
+      "shortDescription": "वर्ग की चार बराबर भुजाएँ होती हैं।",
       "emoji": "■",
       "difficulty": 1,
       "tags": [
@@ -35,7 +35,7 @@
       "id": "triangle",
       "category": "shapes",
       "name": "त्रिभुज",
-      "shortDescription": "आओ सीखें: त्रिभुज।",
+      "shortDescription": "त्रिभुज की तीन भुजाएँ होती हैं।",
       "emoji": "▲",
       "difficulty": 1,
       "tags": [
@@ -49,7 +49,7 @@
       "id": "rectangle",
       "category": "shapes",
       "name": "आयत",
-      "shortDescription": "आओ सीखें: आयत।",
+      "shortDescription": "आयत के चार कोने होते हैं।",
       "emoji": "▬",
       "difficulty": 1,
       "tags": [
@@ -63,7 +63,7 @@
       "id": "oval",
       "category": "shapes",
       "name": "अंडाकार",
-      "shortDescription": "आओ सीखें: अंडाकार।",
+      "shortDescription": "अंडाकार एक खिंचे हुए वृत्त जैसा होता है।",
       "emoji": "⬭",
       "difficulty": 1,
       "tags": [
@@ -77,7 +77,7 @@
       "id": "star",
       "category": "shapes",
       "name": "तारा",
-      "shortDescription": "आओ सीखें: तारा।",
+      "shortDescription": "क्या आप इस तारे की नोकें गिन सकते हैं?",
       "emoji": "★",
       "difficulty": 2,
       "tags": [
@@ -91,7 +91,7 @@
       "id": "heart",
       "category": "shapes",
       "name": "दिल",
-      "shortDescription": "आओ सीखें: दिल।",
+      "shortDescription": "दिल का आकार प्यार दिखाने का एक तरीका है।",
       "emoji": "♥",
       "difficulty": 2,
       "tags": [
@@ -105,7 +105,7 @@
       "id": "diamond",
       "category": "shapes",
       "name": "हीरा",
-      "shortDescription": "आओ सीखें: हीरा।",
+      "shortDescription": "इस हीरे के आकार की चार भुजाएँ हैं।",
       "emoji": "◆",
       "difficulty": 2,
       "tags": [

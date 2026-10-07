@@ -10,8 +10,53 @@ test('English and Hindi profile preferences, protected settings and profile isol
 });
 test('all four games can finish and memory pairs are accessible',async({page})=>{
  await onboard(page);
- for(const kind of ['find-it','match','count']){await page.goto('/play/'+kind);for(let n=0;n<5;n++){await expect(page.locator('.answer-card').first()).toBeVisible();const options=page.locator('.answer-card');const count=await options.count();for(let k=0;k<count;k++){await options.nth(k).click();await expect(page.locator('.feedback')).toBeVisible();if((await page.locator('.feedback').innerText()).includes('Wonderful'))break;}await page.getByRole('button',{name:'Keep exploring'}).click();}await expect(page.getByRole('heading',{name:'Look what you did!'})).toBeVisible();}
- await page.goto('/play/memory');const cards=page.locator('.memory-card');const found=new Map<string,number>();while(!(await page.locator('.result').count())){let paired=false;for(let n=0;n<4;n++){if(await cards.nth(n).isDisabled())continue;await cards.nth(n).click();const label=await cards.nth(n).getAttribute('aria-label');if(label){const prior=found.get(label);if(prior!==undefined && prior!==n && !(await cards.nth(prior).isDisabled())){await cards.nth(prior).click();paired=true;break;}found.set(label,n);}if(await page.locator('.memory-card.face-up:not(.matched)').count()===2)await page.waitForTimeout(1300);}if(!paired)await page.waitForTimeout(1300);}await expect(page.getByRole('heading',{name:'Look what you did!'})).toBeVisible();
+ for(const kind of ['find-it','match','count']){
+  await page.goto('/play/'+kind);
+  for(let n=0;n<5;n++){
+   await expect(page.locator('.game-position')).toHaveText(`Activity ${n+1} of 5`);
+   const options=page.locator('.answer-card');
+   await expect(options.first()).toBeEnabled();
+   if(kind==='find-it'){
+    const prompt=await page.locator('.game-prompt').innerText();
+    const answer=prompt.replace('Can you find ','').replace('?','');
+    await page.getByRole('button',{name:answer,exact:true}).click();
+   }else if(kind==='count'){
+    const number=await page.locator('.count-objects>span').count();
+    await page.getByRole('button',{name:String(number),exact:true}).click();
+   }else{
+    const symbol=await page.locator('.match-target app-item-art').innerText();
+    await options.filter({hasText:symbol}).click();
+   }
+   await expect(page.locator('.feedback')).toHaveText('You found it! Wonderful!');
+   await page.getByRole('button',{name:'Keep exploring'}).click();
+  }
+  await expect(page.getByRole('heading',{name:'Look what you did!'})).toBeVisible();
+ }
+ await page.goto('/play/memory');
+ const cards=page.locator('.memory-card');
+ await expect(cards).toHaveCount(4);
+ const labels:string[]=[];
+ for(let n=0;n<4;n+=2){
+  for(const index of [n,n+1]){
+   await cards.nth(index).click();
+   if(await page.locator('.result').count())break;
+   await expect(cards.nth(index)).toHaveClass(/face-up/);
+   labels[index]=await cards.nth(index).getAttribute('aria-label')??'';
+  }
+  if(await page.locator('.result').count())break;
+  await page.waitForTimeout(1300);
+ }
+ if(!(await page.locator('.result').count())){
+  const pairs=new Map<string,number[]>();
+  labels.forEach((label,index)=>pairs.set(label,[...(pairs.get(label)??[]),index]));
+  for(const pair of pairs.values()){
+   if(pair.length!==2 || await cards.nth(pair[0]).isDisabled())continue;
+   await cards.nth(pair[0]).click();
+   await expect(cards.nth(pair[0])).toHaveClass(/face-up/);
+   await cards.nth(pair[1]).click();
+  }
+ }
+ await expect(page.getByRole('heading',{name:'Look what you did!'})).toBeVisible();
 });
 test('offline reload reaches uncached routes and Hindi content',async({page,context})=>{
  await onboard(page);await page.evaluate(async()=>{const registration=await navigator.serviceWorker.ready;if(!registration.active)throw new Error('No active service worker');});await page.reload();await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);await context.setOffline(true);await page.goto('/learn/fruits');await expect(page.locator('a[href="/learn/fruits/apple"]')).toBeVisible();await page.goto('/learn/animals/elephant');await expect(page.getByRole('heading',{name:'Elephant',exact:true})).toBeVisible();await expect(page.getByText('You’re offline. Let’s keep learning!')).toBeVisible();const hi=await page.evaluate(async()=>{const r=await fetch('/assets/content/hi/animals.json');return r.ok;});expect(hi).toBe(true);

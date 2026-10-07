@@ -7,7 +7,7 @@
       "id": "circle",
       "category": "shapes",
       "name": "Circle",
-      "shortDescription": "Let’s learn: circle.",
+      "shortDescription": "A circle is round, with no corners.",
       "emoji": "●",
       "difficulty": 1,
       "tags": [
@@ -21,7 +21,7 @@
       "id": "square",
       "category": "shapes",
       "name": "Square",
-      "shortDescription": "Let’s learn: square.",
+      "shortDescription": "A square has four equal sides.",
       "emoji": "■",
       "difficulty": 1,
       "tags": [
@@ -35,7 +35,7 @@
       "id": "triangle",
       "category": "shapes",
       "name": "Triangle",
-      "shortDescription": "Let’s learn: triangle.",
+      "shortDescription": "A triangle has three sides.",
       "emoji": "▲",
       "difficulty": 1,
       "tags": [
@@ -49,7 +49,7 @@
       "id": "rectangle",
       "category": "shapes",
       "name": "Rectangle",
-      "shortDescription": "Let’s learn: rectangle.",
+      "shortDescription": "A rectangle has four corners.",
       "emoji": "▬",
       "difficulty": 1,
       "tags": [
@@ -63,7 +63,7 @@
       "id": "oval",
       "category": "shapes",
       "name": "Oval",
-      "shortDescription": "Let’s learn: oval.",
+      "shortDescription": "An oval is like a stretched circle.",
       "emoji": "⬭",
       "difficulty": 1,
       "tags": [
@@ -77,7 +77,7 @@
       "id": "star",
       "category": "shapes",
       "name": "Star",
-      "shortDescription": "Let’s learn: star.",
+      "shortDescription": "Can you count the points on this star?",
       "emoji": "★",
       "difficulty": 2,
       "tags": [
@@ -91,7 +91,7 @@
       "id": "heart",
       "category": "shapes",
       "name": "Heart",
-      "shortDescription": "Let’s learn: heart.",
+      "shortDescription": "A heart shape can be a way to show love.",
       "emoji": "♥",
       "difficulty": 2,
       "tags": [
@@ -105,7 +105,7 @@
       "id": "diamond",
       "category": "shapes",
       "name": "Diamond",
-      "shortDescription": "Let’s learn: diamond.",
+      "shortDescription": "This diamond shape has four sides.",
       "emoji": "◆",
       "difficulty": 2,
       "tags": [

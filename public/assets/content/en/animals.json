@@ -7,7 +7,7 @@
       "id": "elephant",
       "category": "animals",
       "name": "Elephant",
-      "shortDescription": "Let’s learn: elephant.",
+      "shortDescription": "An elephant uses its long trunk to pick things up.",
       "emoji": "🐘",
       "difficulty": 1,
       "tags": [
@@ -21,7 +21,7 @@
       "id": "lion",
       "category": "animals",
       "name": "Lion",
-      "shortDescription": "Let’s learn: lion.",
+      "shortDescription": "A lion has a loud roar.",
       "emoji": "🦁",
       "difficulty": 1,
       "tags": [
@@ -35,7 +35,7 @@
       "id": "tiger",
       "category": "animals",
       "name": "Tiger",
-      "shortDescription": "Let’s learn: tiger.",
+      "shortDescription": "A tiger has stripes on its fur.",
       "emoji": "🐯",
       "difficulty": 1,
       "tags": [
@@ -49,7 +49,7 @@
       "id": "dog",
       "category": "animals",
       "name": "Dog",
-      "shortDescription": "Let’s learn: dog.",
+      "shortDescription": "A dog wags its tail.",
       "emoji": "🐶",
       "difficulty": 1,
       "tags": [
@@ -63,7 +63,7 @@
       "id": "cat",
       "category": "animals",
       "name": "Cat",
-      "shortDescription": "Let’s learn: cat.",
+      "shortDescription": "A cat has soft paws and long whiskers.",
       "emoji": "🐱",
       "difficulty": 1,
       "tags": [
@@ -77,7 +77,7 @@
       "id": "rabbit",
       "category": "animals",
       "name": "Rabbit",
-      "shortDescription": "Let’s learn: rabbit.",
+      "shortDescription": "A rabbit has long ears and likes to hop.",
       "emoji": "🐰",
       "difficulty": 2,
       "tags": [
@@ -91,7 +91,7 @@
       "id": "bear",
       "category": "animals",
       "name": "Bear",
-      "shortDescription": "Let’s learn: bear.",
+      "shortDescription": "A bear has big paws.",
       "emoji": "🐻",
       "difficulty": 2,
       "tags": [
@@ -105,7 +105,7 @@
       "id": "panda",
       "category": "animals",
       "name": "Panda",
-      "shortDescription": "Let’s learn: panda.",
+      "shortDescription": "A panda likes to eat bamboo.",
       "emoji": "🐼",
       "difficulty": 2,
       "tags": [
@@ -119,7 +119,7 @@
       "id": "monkey",
       "category": "animals",
       "name": "Monkey",
-      "shortDescription": "Let’s learn: monkey.",
+      "shortDescription": "A monkey can climb trees.",
       "emoji": "🐵",
       "difficulty": 2,
       "tags": [
@@ -133,7 +133,7 @@
       "id": "fox",
       "category": "animals",
       "name": "Fox",
-      "shortDescription": "Let’s learn: fox.",
+      "shortDescription": "A fox has a fluffy tail.",
       "emoji": "🦊",
       "difficulty": 2,
       "tags": [
@@ -147,7 +147,7 @@
       "id": "cow",
       "category": "animals",
       "name": "Cow",
-      "shortDescription": "Let’s learn: cow.",
+      "shortDescription": "A cow eats grass.",
       "emoji": "🐮",
       "difficulty": 2,
       "tags": [
@@ -161,7 +161,7 @@
       "id": "pig",
       "category": "animals",
       "name": "Pig",
-      "shortDescription": "Let’s learn: pig.",
+      "shortDescription": "A pig has a round snout.",
       "emoji": "🐷",
       "difficulty": 2,
       "tags": [
@@ -175,7 +175,7 @@
       "id": "horse",
       "category": "animals",
       "name": "Horse",
-      "shortDescription": "Let’s learn: horse.",
+      "shortDescription": "A horse runs on four hooves.",
       "emoji": "🐴",
       "difficulty": 2,
       "tags": [
@@ -189,7 +189,7 @@
       "id": "sheep",
       "category": "animals",
       "name": "Sheep",
-      "shortDescription": "Let’s learn: sheep.",
+      "shortDescription": "A sheep has a woolly coat.",
       "emoji": "🐑",
       "difficulty": 2,
       "tags": [
@@ -203,7 +203,7 @@
       "id": "giraffe",
       "category": "animals",
       "name": "Giraffe",
-      "shortDescription": "Let’s learn: giraffe.",
+      "shortDescription": "A giraffe has a very long neck.",
       "emoji": "🦒",
       "difficulty": 2,
       "tags": [
@@ -217,7 +217,7 @@
       "id": "zebra",
       "category": "animals",
       "name": "Zebra",
-      "shortDescription": "Let’s learn: zebra.",
+      "shortDescription": "A zebra has black and white stripes.",
       "emoji": "🦓",
       "difficulty": 2,
       "tags": [
