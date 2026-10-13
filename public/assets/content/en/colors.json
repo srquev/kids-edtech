@@ -12,9 +12,10 @@
       "difficulty": 1,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/red.mp3",
-      "audioAvailable": false,
-      "color": "#dd4b48"
+      "audio": "/assets/audio/en/colors/red.m4a",
+      "audioAvailable": true,
+      "color": "#dd4b48",
+      "lessonAudio": "/assets/audio/en/colors/red-lesson.m4a"
     },
     {
       "id": "blue",
@@ -25,9 +26,10 @@
       "difficulty": 1,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/blue.mp3",
-      "audioAvailable": false,
-      "color": "#3981d6"
+      "audio": "/assets/audio/en/colors/blue.m4a",
+      "audioAvailable": true,
+      "color": "#3981d6",
+      "lessonAudio": "/assets/audio/en/colors/blue-lesson.m4a"
     },
     {
       "id": "yellow",
@@ -38,9 +40,10 @@
       "difficulty": 1,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/yellow.mp3",
-      "audioAvailable": false,
-      "color": "#f6cb46"
+      "audio": "/assets/audio/en/colors/yellow.m4a",
+      "audioAvailable": true,
+      "color": "#f6cb46",
+      "lessonAudio": "/assets/audio/en/colors/yellow-lesson.m4a"
     },
     {
       "id": "green",
@@ -51,9 +54,10 @@
       "difficulty": 1,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/green.mp3",
-      "audioAvailable": false,
-      "color": "#51a478"
+      "audio": "/assets/audio/en/colors/green.m4a",
+      "audioAvailable": true,
+      "color": "#51a478",
+      "lessonAudio": "/assets/audio/en/colors/green-lesson.m4a"
     },
     {
       "id": "orange",
@@ -64,9 +68,10 @@
       "difficulty": 1,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/orange.mp3",
-      "audioAvailable": false,
-      "color": "#ed9345"
+      "audio": "/assets/audio/en/colors/orange.m4a",
+      "audioAvailable": true,
+      "color": "#ed9345",
+      "lessonAudio": "/assets/audio/en/colors/orange-lesson.m4a"
     },
     {
       "id": "purple",
@@ -77,9 +82,10 @@
       "difficulty": 2,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/purple.mp3",
-      "audioAvailable": false,
-      "color": "#9164c4"
+      "audio": "/assets/audio/en/colors/purple.m4a",
+      "audioAvailable": true,
+      "color": "#9164c4",
+      "lessonAudio": "/assets/audio/en/colors/purple-lesson.m4a"
     },
     {
       "id": "pink",
@@ -90,9 +96,10 @@
       "difficulty": 2,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/pink.mp3",
-      "audioAvailable": false,
-      "color": "#e58bad"
+      "audio": "/assets/audio/en/colors/pink.m4a",
+      "audioAvailable": true,
+      "color": "#e58bad",
+      "lessonAudio": "/assets/audio/en/colors/pink-lesson.m4a"
     },
     {
       "id": "brown",
@@ -103,9 +110,10 @@
       "difficulty": 2,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/brown.mp3",
-      "audioAvailable": false,
-      "color": "#9a7154"
+      "audio": "/assets/audio/en/colors/brown.m4a",
+      "audioAvailable": true,
+      "color": "#9a7154",
+      "lessonAudio": "/assets/audio/en/colors/brown-lesson.m4a"
     },
     {
       "id": "black",
@@ -116,9 +124,10 @@
       "difficulty": 2,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/black.mp3",
-      "audioAvailable": false,
-      "color": "#39343e"
+      "audio": "/assets/audio/en/colors/black.m4a",
+      "audioAvailable": true,
+      "color": "#39343e",
+      "lessonAudio": "/assets/audio/en/colors/black-lesson.m4a"
     },
     {
       "id": "white",
@@ -129,9 +138,10 @@
       "difficulty": 2,
       "tags": ["colors"],
       "enabled": true,
-      "audio": "/assets/audio/en/colors/white.mp3",
-      "audioAvailable": false,
-      "color": "#fffef7"
+      "audio": "/assets/audio/en/colors/white.m4a",
+      "audioAvailable": true,
+      "color": "#fffef7",
+      "lessonAudio": "/assets/audio/en/colors/white-lesson.m4a"
     }
   ]
 }

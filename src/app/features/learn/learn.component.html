@@ -32,22 +32,133 @@
           {{ i.t("common.retry") }}
         </button>
       </div>
+    } @else if (finished()) {
+      <section
+        #lessonPanel
+        tabindex="-1"
+        class="lesson panel completion"
+        aria-labelledby="finish-title"
+      >
+        <span class="finish-star" aria-hidden="true">✦</span>
+        <h1 id="finish-title">{{ i.t("learn.lessonDone") }}</h1>
+        <p>
+          {{
+            i.t("learn.exploredCount", {
+              count: exploredCount(),
+              total: items().length,
+            })
+          }}
+        </p>
+        <div class="lesson-actions">
+          <a
+            class="button"
+            routerLink="/play/find-it"
+            [queryParams]="{ category: categoryId() }"
+            >{{ i.t("learn.practice") }}</a
+          >
+          <a class="button secondary" [routerLink]="['/learn', categoryId()]">{{
+            i.t("common.all")
+          }}</a>
+        </div>
+      </section>
     } @else if (itemId()) {
       @if (selected(); as item) {
-        <section class="lesson panel">
+        <section
+          #lessonPanel
+          tabindex="-1"
+          class="lesson panel"
+          aria-labelledby="lesson-title"
+        >
           <span class="pill">{{ i.t("category." + categoryId()) }}</span>
-          <div class="lesson-art"><app-item-art [item]="item" /></div>
-          <h1>{{ item.name }}</h1>
-          <p>{{ item.shortDescription }}</p>
+          <p class="lesson-position" aria-live="polite">
+            {{
+              i.t("learn.position", {
+                current: index() + 1,
+                total: items().length,
+              })
+            }}
+          </p>
+          <progress
+            class="lesson-progress"
+            [value]="index() + 1"
+            [max]="items().length"
+            [attr.aria-label]="
+              i.t('learn.position', {
+                current: index() + 1,
+                total: items().length,
+              })
+            "
+          ></progress>
           <button
-            class="listen-button"
+            class="lesson-art"
             (click)="audio.playPronunciation(item)"
-            [attr.aria-label]="i.t('common.listen')"
-            [attr.aria-pressed]="audio.playing()"
+            [attr.aria-label]="i.t('learn.hear', { name: item.name })"
           >
-            <svg aria-hidden="true"><use href="#volume" /></svg
-            >{{ i.t("common.listen") }}
+            <app-item-art [item]="item" />
           </button>
+          <h1 id="lesson-title">{{ item.name }}</h1>
+          <p>{{ item.shortDescription }}</p>
+          <div class="voice-actions">
+            <button
+              class="listen-button"
+              (click)="audio.playPronunciation(item)"
+              [attr.aria-label]="i.t('common.listen')"
+            >
+              <svg aria-hidden="true"><use href="#volume" /></svg
+              >{{ i.t("common.listen") }}
+            </button>
+            <button
+              class="listen-button"
+              (click)="audio.playPronunciation(item, true)"
+            >
+              <span aria-hidden="true">♪</span>{{ i.t("learn.slow") }}
+            </button>
+            <button class="listen-button" (click)="audio.playLesson(item)">
+              <span aria-hidden="true">☷</span>{{ i.t("learn.read") }}
+            </button>
+          </div>
+          <div class="speech-status" aria-live="polite">
+            @if (audio.muted()) {
+              <p>{{ i.t("learn.soundMuted") }}</p>
+            } @else if (audio.voiceDisabled()) {
+              <p>{{ i.t("learn.voiceDisabled") }}</p>
+            } @else if (audio.failure(); as failure) {
+              <p>
+                {{
+                  i.t(
+                    failure === "blocked"
+                      ? "learn.audioBlocked"
+                      : "learn.audioUnavailable"
+                  )
+                }}
+              </p>
+            } @else if (audio.playing()) {
+              <button class="stop-voice" (click)="audio.stop()">
+                {{ i.t("learn.stop") }}
+              </button>
+            }
+          </div>
+          <nav
+            class="lesson-navigation"
+            [attr.aria-label]="i.t('learn.navigation')"
+          >
+            <button
+              class="button secondary"
+              (click)="navigate(-1)"
+              [disabled]="!previousItem()"
+            >
+              <span aria-hidden="true">←</span> {{ i.t("common.back") }}
+            </button>
+            @if (nextItem()) {
+              <button class="button" (click)="navigate(1)">
+                {{ i.t("common.next") }} <span aria-hidden="true">→</span>
+              </button>
+            } @else {
+              <button class="button" (click)="finish()">
+                {{ i.t("learn.finish") }} <span aria-hidden="true">✓</span>
+              </button>
+            }
+          </nav>
           <div class="lesson-actions">
             <a
               class="button"
@@ -55,13 +166,6 @@
               [queryParams]="{ category: categoryId(), target: item.id }"
               >{{ i.t("learn.activity") }} <span aria-hidden="true">→</span></a
             >
-            @if (nextItem(); as next) {
-              <a
-                class="button secondary"
-                [routerLink]="['/learn', categoryId(), next.id]"
-                >{{ i.t("learn.next") }} <span aria-hidden="true">↗</span></a
-              >
-            }
           </div>
         </section>
       } @else {
@@ -82,6 +186,28 @@
           </p>
         </div>
       </div>
+      @if (resumeItem(); as resume) {
+        <div class="category-summary panel">
+          <span>{{
+            i.t("learn.exploredCount", {
+              count: exploredCount(),
+              total: items().length,
+            })
+          }}</span>
+          <a class="button" [routerLink]="['/learn', categoryId(), resume.id]"
+            >{{
+              i.t(
+                exploredCount() === items().length
+                  ? "learn.review"
+                  : exploredCount()
+                    ? "learn.resume"
+                    : "learn.start"
+              )
+            }}
+            <span aria-hidden="true">→</span></a
+          >
+        </div>
+      }
       <div class="items-grid">
         @for (item of items(); track item.id) {
           <a

@@ -1,11 +1,38 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  input,
+  signal,
+} from '@angular/core';
 import { LearningItem } from '../core/models';
 @Component({
   selector: 'app-item-art',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    @if (item().image) {
-      <img [src]="item().image" alt="" loading="lazy" draggable="false" />
+    @if (item().image && failedImage() !== item().image) {
+      @if (item().imageGrid; as grid) {
+        <span class="image-tile" aria-hidden="true">
+          <img
+            [src]="item().image"
+            alt=""
+            loading="lazy"
+            draggable="false"
+            [style.width.%]="grid.columns * 100"
+            [style.height.%]="grid.rows * 100"
+            [style.left.%]="-(grid.index % grid.columns) * 100"
+            [style.top.%]="-row(grid.index, grid.columns) * 100"
+            (error)="failedImage.set(item().image)"
+          />
+        </span>
+      } @else {
+        <img
+          [src]="item().image"
+          alt=""
+          loading="lazy"
+          draggable="false"
+          (error)="failedImage.set(item().image)"
+        />
+      }
     } @else if (item().color) {
       <span class="swatch" [style.background-color]="item().color"
         ><span class="shine"></span
@@ -30,12 +57,27 @@ import { LearningItem } from '../core/models';
         justify-content: center;
         width: 100%;
         height: 100%;
-        min-height: 1em;
+        min-height: 0;
       }
       img {
         width: 100%;
         height: 100%;
         object-fit: contain;
+      }
+      .image-tile {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        max-width: 100%;
+        aspect-ratio: 1;
+        border-radius: 18%;
+        background: #fffefa;
+      }
+      .image-tile img {
+        position: absolute;
+        max-width: none;
+        object-fit: fill;
       }
       .symbol {
         font-size: inherit;
@@ -71,4 +113,8 @@ import { LearningItem } from '../core/models';
 })
 export class ItemArtComponent {
   readonly item = input.required<LearningItem>();
+  readonly failedImage = signal<string | undefined>(undefined);
+  row(index: number, columns: number): number {
+    return Math.floor(index / columns);
+  }
 }

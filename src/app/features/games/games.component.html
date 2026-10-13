@@ -106,7 +106,13 @@
         </div>
         <h1 class="game-prompt">{{ prompt() }}</h1>
         @if (kind === "match") {
-          <div class="match-target"><app-item-art [item]="q.target" /></div>
+          <div
+            class="match-target"
+            role="img"
+            [attr.aria-label]="q.target.name"
+          >
+            <app-item-art [item]="q.target" />
+          </div>
           <span class="match-connector" aria-hidden="true">↓</span>
         }
         @if (kind === "count") {

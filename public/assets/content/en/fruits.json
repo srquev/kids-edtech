@@ -12,8 +12,15 @@
       "difficulty": 1,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/apple.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/apple.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 0
+      },
+      "lessonAudio": "/assets/audio/en/fruits/apple-lesson.m4a"
     },
     {
       "id": "banana",
@@ -24,8 +31,15 @@
       "difficulty": 1,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/banana.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/banana.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 1
+      },
+      "lessonAudio": "/assets/audio/en/fruits/banana-lesson.m4a"
     },
     {
       "id": "grapes",
@@ -36,8 +50,15 @@
       "difficulty": 1,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/grapes.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/grapes.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 2
+      },
+      "lessonAudio": "/assets/audio/en/fruits/grapes-lesson.m4a"
     },
     {
       "id": "orange",
@@ -48,8 +69,15 @@
       "difficulty": 1,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/orange.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/orange.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 3
+      },
+      "lessonAudio": "/assets/audio/en/fruits/orange-lesson.m4a"
     },
     {
       "id": "strawberry",
@@ -60,8 +88,15 @@
       "difficulty": 1,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/strawberry.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/strawberry.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 4
+      },
+      "lessonAudio": "/assets/audio/en/fruits/strawberry-lesson.m4a"
     },
     {
       "id": "watermelon",
@@ -72,8 +107,15 @@
       "difficulty": 2,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/watermelon.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/watermelon.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 5
+      },
+      "lessonAudio": "/assets/audio/en/fruits/watermelon-lesson.m4a"
     },
     {
       "id": "pineapple",
@@ -84,8 +126,15 @@
       "difficulty": 2,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/pineapple.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/pineapple.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 6
+      },
+      "lessonAudio": "/assets/audio/en/fruits/pineapple-lesson.m4a"
     },
     {
       "id": "mango",
@@ -96,8 +145,15 @@
       "difficulty": 2,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/mango.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/mango.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 7
+      },
+      "lessonAudio": "/assets/audio/en/fruits/mango-lesson.m4a"
     },
     {
       "id": "pear",
@@ -108,8 +164,15 @@
       "difficulty": 2,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/pear.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/pear.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 8
+      },
+      "lessonAudio": "/assets/audio/en/fruits/pear-lesson.m4a"
     },
     {
       "id": "cherry",
@@ -120,8 +183,15 @@
       "difficulty": 2,
       "tags": ["fruits"],
       "enabled": true,
-      "audio": "/assets/audio/en/fruits/cherry.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/fruits/cherry.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/fruits-realistic.jpg",
+      "imageGrid": {
+        "columns": 5,
+        "rows": 2,
+        "index": 9
+      },
+      "lessonAudio": "/assets/audio/en/fruits/cherry-lesson.m4a"
     }
   ]
 }

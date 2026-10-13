@@ -12,8 +12,9 @@
       "difficulty": 1,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/a.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/a.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/a-lesson.m4a"
     },
     {
       "id": "b",
@@ -24,8 +25,9 @@
       "difficulty": 1,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/b.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/b.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/b-lesson.m4a"
     },
     {
       "id": "c",
@@ -36,8 +38,9 @@
       "difficulty": 1,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/c.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/c.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/c-lesson.m4a"
     },
     {
       "id": "d",
@@ -48,8 +51,9 @@
       "difficulty": 1,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/d.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/d.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/d-lesson.m4a"
     },
     {
       "id": "e",
@@ -60,8 +64,9 @@
       "difficulty": 1,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/e.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/e.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/e-lesson.m4a"
     },
     {
       "id": "f",
@@ -72,8 +77,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/f.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/f.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/f-lesson.m4a"
     },
     {
       "id": "g",
@@ -84,8 +90,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/g.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/g.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/g-lesson.m4a"
     },
     {
       "id": "h",
@@ -96,8 +103,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/h.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/h.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/h-lesson.m4a"
     },
     {
       "id": "i",
@@ -108,8 +116,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/i.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/i.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/i-lesson.m4a"
     },
     {
       "id": "j",
@@ -120,8 +129,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/j.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/j.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/j-lesson.m4a"
     },
     {
       "id": "k",
@@ -132,8 +142,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/k.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/k.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/k-lesson.m4a"
     },
     {
       "id": "l",
@@ -144,8 +155,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/l.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/l.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/l-lesson.m4a"
     },
     {
       "id": "m",
@@ -156,8 +168,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/m.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/m.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/m-lesson.m4a"
     },
     {
       "id": "n",
@@ -168,8 +181,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/n.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/n.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/n-lesson.m4a"
     },
     {
       "id": "o",
@@ -180,8 +194,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/o.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/o.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/o-lesson.m4a"
     },
     {
       "id": "p",
@@ -192,8 +207,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/p.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/p.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/p-lesson.m4a"
     },
     {
       "id": "q",
@@ -204,8 +220,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/q.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/q.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/q-lesson.m4a"
     },
     {
       "id": "r",
@@ -216,8 +233,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/r.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/r.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/r-lesson.m4a"
     },
     {
       "id": "s",
@@ -228,8 +246,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/s.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/s.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/s-lesson.m4a"
     },
     {
       "id": "t",
@@ -240,8 +259,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/t.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/t.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/t-lesson.m4a"
     },
     {
       "id": "u",
@@ -252,8 +272,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/u.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/u.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/u-lesson.m4a"
     },
     {
       "id": "v",
@@ -264,8 +285,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/v.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/v.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/v-lesson.m4a"
     },
     {
       "id": "w",
@@ -276,8 +298,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/w.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/w.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/w-lesson.m4a"
     },
     {
       "id": "x",
@@ -288,8 +311,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/x.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/x.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/x-lesson.m4a"
     },
     {
       "id": "y",
@@ -300,8 +324,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/y.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/y.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/y-lesson.m4a"
     },
     {
       "id": "z",
@@ -312,8 +337,9 @@
       "difficulty": 2,
       "tags": ["alphabet"],
       "enabled": true,
-      "audio": "/assets/audio/en/alphabet/z.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/alphabet/z.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/alphabet/z-lesson.m4a"
     }
   ]
 }

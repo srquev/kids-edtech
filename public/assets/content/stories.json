@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "stories": [
+    {
+      "id": "rabbit-picnic",
+      "art": 5,
+      "answerId": "apple",
+      "en": {
+        "title": "Rabbit’s Picnic",
+        "theme": "Sharing with a friend",
+        "question": "What did Rabbit share?",
+        "options": [
+          {
+            "id": "apple",
+            "text": "An apple"
+          },
+          {
+            "id": "other",
+            "text": "A hat"
+          }
+        ],
+        "questionAudio": "/assets/audio/en/stories/rabbit-picnic-question.m4a"
+      },
+      "hi": {
+        "title": "खरगोश की पिकनिक",
+        "theme": "दोस्त के साथ बाँटना",
+        "question": "खरगोश ने क्या बाँटा?",
+        "options": [
+          {
+            "id": "apple",
+            "text": "एक सेब"
+          },
+          {
+            "id": "other",
+            "text": "एक टोपी"
+          }
+        ],
+        "questionAudio": "/assets/audio/hi/stories/rabbit-picnic-question.m4a"
+      },
+      "pages": [
+        {
+          "art": 5,
+          "en": {
+            "text": "Rabbit packed two apples for a picnic. He found a shady tree and sat down.",
+            "audio": "/assets/audio/en/stories/rabbit-picnic-1.m4a"
+          },
+          "hi": {
+            "text": "खरगोश पिकनिक के लिए दो सेब लाया। वह एक छायादार पेड़ के नीचे बैठ गया।",
+            "audio": "/assets/audio/hi/stories/rabbit-picnic-1.m4a"
+          }
+        },
+        {
+          "art": 6,
+          "en": {
+            "text": "Bear came to sit beside him. “I forgot my snack,” said Bear.",
+            "audio": "/assets/audio/en/stories/rabbit-picnic-2.m4a"
+          },
+          "hi": {
+            "text": "भालू उसके पास आकर बैठा। भालू बोला, “मैं अपना नाश्ता लाना भूल गया।”",
+            "audio": "/assets/audio/hi/stories/rabbit-picnic-2.m4a"
+          }
+        },
+        {
+          "art": 5,
+          "en": {
+            "text": "“Here is an apple for you!” said Rabbit. Bear smiled and said, “Thank you!”",
+            "audio": "/assets/audio/en/stories/rabbit-picnic-3.m4a"
+          },
+          "hi": {
+            "text": "खरगोश बोला, “यह सेब तुम्हारे लिए!” भालू मुस्कुराया और बोला, “धन्यवाद!”",
+            "audio": "/assets/audio/hi/stories/rabbit-picnic-3.m4a"
+          }
+        },
+        {
+          "art": 6,
+          "en": {
+            "text": "They ate their apples together. A picnic was even nicer with a friend.",
+            "audio": "/assets/audio/en/stories/rabbit-picnic-4.m4a"
+          },
+          "hi": {
+            "text": "दोनों ने साथ बैठकर सेब खाए। दोस्त के साथ पिकनिक का मज़ा और बढ़ गया।",
+            "audio": "/assets/audio/hi/stories/rabbit-picnic-4.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elephant-friend",
+      "art": 0,
+      "answerId": "help",
+      "en": {
+        "title": "Elephant Helps a Friend",
+        "theme": "Little acts of kindness",
+        "question": "What did Elephant do?",
+        "options": [
+          {
+            "id": "help",
+            "text": "Helped Monkey"
+          },
+          {
+            "id": "other",
+            "text": "Hid from Monkey"
+          }
+        ],
+        "questionAudio": "/assets/audio/en/stories/elephant-friend-question.m4a"
+      },
+      "hi": {
+        "title": "हाथी ने की मदद",
+        "theme": "एक छोटी-सी मदद",
+        "question": "हाथी ने क्या किया?",
+        "options": [
+          {
+            "id": "help",
+            "text": "बंदर की मदद की"
+          },
+          {
+            "id": "other",
+            "text": "बंदर से छिप गया"
+          }
+        ],
+        "questionAudio": "/assets/audio/hi/stories/elephant-friend-question.m4a"
+      },
+      "pages": [
+        {
+          "art": 8,
+          "en": {
+            "text": "Monkey wanted to cross a little puddle. He did not want to get his feet wet.",
+            "audio": "/assets/audio/en/stories/elephant-friend-1.m4a"
+          },
+          "hi": {
+            "text": "बंदर पानी के एक छोटे गड्ढे को पार करना चाहता था। वह अपने पैर गीले नहीं करना चाहता था।",
+            "audio": "/assets/audio/hi/stories/elephant-friend-1.m4a"
+          }
+        },
+        {
+          "art": 0,
+          "en": {
+            "text": "Elephant saw his friend waiting. “Let us find a dry way,” he said.",
+            "audio": "/assets/audio/en/stories/elephant-friend-2.m4a"
+          },
+          "hi": {
+            "text": "हाथी ने अपने दोस्त को खड़े देखा। वह बोला, “चलो, कोई सूखा रास्ता ढूँढ़ते हैं।”",
+            "audio": "/assets/audio/hi/stories/elephant-friend-2.m4a"
+          }
+        },
+        {
+          "art": 8,
+          "en": {
+            "text": "They walked around the puddle, side by side. Monkey’s feet stayed dry.",
+            "audio": "/assets/audio/en/stories/elephant-friend-3.m4a"
+          },
+          "hi": {
+            "text": "दोनों साथ-साथ गड्ढे के किनारे से घूमकर निकल गए। बंदर के पैर सूखे रहे।",
+            "audio": "/assets/audio/hi/stories/elephant-friend-3.m4a"
+          }
+        },
+        {
+          "art": 0,
+          "en": {
+            "text": "“Thank you for walking with me!” said Monkey. The two friends smiled.",
+            "audio": "/assets/audio/en/stories/elephant-friend-4.m4a"
+          },
+          "hi": {
+            "text": "बंदर बोला, “मेरे साथ चलने के लिए धन्यवाद!” दोनों दोस्त मुस्कुराने लगे।",
+            "audio": "/assets/audio/hi/stories/elephant-friend-4.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cat-bedtime",
+      "art": 4,
+      "answerId": "sleep",
+      "en": {
+        "title": "Cat Says Goodnight",
+        "theme": "A gentle bedtime story",
+        "question": "What was Cat ready for?",
+        "options": [
+          {
+            "id": "sleep",
+            "text": "Sleep"
+          },
+          {
+            "id": "other",
+            "text": "A picnic"
+          }
+        ],
+        "questionAudio": "/assets/audio/en/stories/cat-bedtime-question.m4a"
+      },
+      "hi": {
+        "title": "बिल्ली चली सोने",
+        "theme": "सोने से पहले की प्यारी कहानी",
+        "question": "बिल्ली किसके लिए तैयार थी?",
+        "options": [
+          {
+            "id": "sleep",
+            "text": "सोने के लिए"
+          },
+          {
+            "id": "other",
+            "text": "पिकनिक के लिए"
+          }
+        ],
+        "questionAudio": "/assets/audio/hi/stories/cat-bedtime-question.m4a"
+      },
+      "pages": [
+        {
+          "art": 4,
+          "en": {
+            "text": "Cat had a lovely day of playing. Now the sky was dark and the moon was bright.",
+            "audio": "/assets/audio/en/stories/cat-bedtime-1.m4a"
+          },
+          "hi": {
+            "text": "बिल्ली ने दिन भर खूब खेला। अब आसमान में अँधेरा था और चाँद चमक रहा था।",
+            "audio": "/assets/audio/hi/stories/cat-bedtime-1.m4a"
+          }
+        },
+        {
+          "art": 4,
+          "en": {
+            "text": "She put her toys in a basket. Then she brushed her teeth.",
+            "audio": "/assets/audio/en/stories/cat-bedtime-2.m4a"
+          },
+          "hi": {
+            "text": "उसने अपने खिलौने टोकरी में रखे। फिर उसने अपने दाँत साफ़ किए।",
+            "audio": "/assets/audio/hi/stories/cat-bedtime-2.m4a"
+          }
+        },
+        {
+          "art": 4,
+          "en": {
+            "text": "Cat snuggled under her soft blanket. “Goodnight, Moon,” she whispered.",
+            "audio": "/assets/audio/en/stories/cat-bedtime-3.m4a"
+          },
+          "hi": {
+            "text": "बिल्ली अपनी मुलायम चादर ओढ़कर लेट गई। उसने धीरे से कहा, “शुभ रात्रि, चाँद।”",
+            "audio": "/assets/audio/hi/stories/cat-bedtime-3.m4a"
+          }
+        },
+        {
+          "art": 4,
+          "en": {
+            "text": "She closed her eyes and took a slow breath. Cat was ready for a cozy sleep.",
+            "audio": "/assets/audio/en/stories/cat-bedtime-4.m4a"
+          },
+          "hi": {
+            "text": "उसने आँखें बंद कीं और धीरे से साँस ली। बिल्ली अब आराम से सोने के लिए तैयार थी।",
+            "audio": "/assets/audio/hi/stories/cat-bedtime-4.m4a"
+          }
+        }
+      ]
+    }
+  ]
+}

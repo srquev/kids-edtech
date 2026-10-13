@@ -20,13 +20,17 @@
       "name": "core-learning",
       "installMode": "prefetch",
       "updateMode": "prefetch",
-      "resources": { "files": ["/assets/i18n/**", "/assets/content/**"] }
+      "resources": {
+        "files": ["/assets/i18n/**", "/assets/content/**", "/assets/images/**"]
+      }
     },
     {
       "name": "media",
-      "installMode": "lazy",
-      "updateMode": "lazy",
-      "resources": { "files": ["/assets/images/**", "/assets/audio/**"] }
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": ["/assets/audio/**"]
+      }
     }
   ]
 }

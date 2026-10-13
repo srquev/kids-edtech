@@ -34,6 +34,33 @@
 .adventure-column {
   min-width: 0;
 }
+.story-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  margin-top: 24px;
+  background: #f3edf8;
+}
+.story-icon {
+  font-size: 3rem;
+  color: var(--plum);
+}
+.story-banner > div {
+  flex: 1;
+  min-width: 170px;
+}
+.story-banner h2 {
+  margin: 8px 0;
+  font-size: 1.2rem;
+}
+.story-banner p {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.story-banner > .button {
+  font-size: 0.78rem;
+}
 .hero {
   border-radius: 26px;
   background: #edf1e7;

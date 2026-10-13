@@ -70,6 +70,8 @@
   color: #83718f;
 }
 .lesson {
+  scroll-margin-top: 16px;
+  overflow-anchor: none;
   max-width: 740px;
   margin: 0 auto;
   text-align: center;
@@ -152,5 +154,114 @@
   }
   .lesson > p {
     font-size: 0.85rem;
+  }
+}
+
+.lesson .lesson-position {
+  font-size: 0.8rem;
+  margin: 14px 0 8px;
+}
+.lesson-progress {
+  display: block;
+  width: min(100%, 330px);
+  height: 8px;
+  margin: 0 auto;
+  accent-color: var(--plum);
+  border: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.lesson-progress::-webkit-progress-bar {
+  background: #eee6f2;
+}
+.lesson-progress::-webkit-progress-value {
+  background: var(--plum);
+  border-radius: 20px;
+}
+button.lesson-art {
+  width: min(100%, 255px);
+  padding: 0;
+  background: transparent;
+  border-radius: 22px;
+}
+.voice-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.speech-status {
+  min-height: 42px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: grid;
+  place-items: center;
+}
+.lesson:focus {
+  outline: none;
+}
+.stop-voice {
+  background: transparent;
+  color: var(--plum-dark);
+  text-decoration: underline;
+  min-height: 40px;
+}
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line, #e8dfea);
+}
+.lesson-navigation .button {
+  min-width: 110px;
+}
+.lesson-navigation button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+.lesson-actions {
+  margin-top: 20px;
+}
+.category-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 18px 22px;
+}
+.category-summary > span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.finish-star {
+  display: block;
+  font-size: 5rem;
+  color: #ad731c;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  button.lesson-art {
+    width: 170px;
+    height: 170px;
+    margin-top: 12px;
+  }
+  .listen-button {
+    min-height: 44px;
+    padding: 10px 13px;
+    gap: 7px;
+    font-size: 0.78rem;
+  }
+  .lesson {
+    padding: 20px 17px;
+  }
+  .lesson > p {
+    margin: 10px 0 14px;
+  }
+  .lesson-navigation {
+    padding-top: 12px;
   }
 }

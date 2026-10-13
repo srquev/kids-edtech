@@ -20,8 +20,10 @@ export interface LearningItem {
   shortDescription: string;
   emoji: string;
   image?: string;
+  imageGrid?: { columns: number; rows: number; index: number };
   color?: string;
   audio?: string;
+  lessonAudio?: string;
   audioAvailable: boolean;
   difficulty: number;
   tags: string[];

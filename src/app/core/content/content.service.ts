@@ -33,11 +33,25 @@ export function validatePack(
       !Array.isArray(item.tags)
     )
       throw new Error('Invalid learning item');
-    for (const path of [item.image, item.audio])
+    for (const path of [item.image, item.audio, item.lessonAudio])
       if (path && !/^\/assets\/[a-zA-Z0-9/_.-]+$/.test(path))
         throw new Error('Content assets must be local');
     if (item.color && !/^#[a-fA-F0-9]{6}$/.test(item.color))
       throw new Error('Invalid color');
+    if (item.imageGrid) {
+      const { columns, rows, index } = item.imageGrid;
+      if (
+        !item.image ||
+        !Number.isInteger(columns) ||
+        columns < 1 ||
+        !Number.isInteger(rows) ||
+        rows < 1 ||
+        !Number.isInteger(index) ||
+        index < 0 ||
+        index >= columns * rows
+      )
+        throw new Error('Invalid image grid');
+    }
     ids.add(item.id);
   }
   return pack as ContentPack;

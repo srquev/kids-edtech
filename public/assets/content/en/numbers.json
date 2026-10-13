@@ -12,8 +12,9 @@
       "difficulty": 1,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/1.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/1.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/1-lesson.m4a"
     },
     {
       "id": "2",
@@ -24,8 +25,9 @@
       "difficulty": 1,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/2.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/2.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/2-lesson.m4a"
     },
     {
       "id": "3",
@@ -36,8 +38,9 @@
       "difficulty": 1,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/3.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/3.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/3-lesson.m4a"
     },
     {
       "id": "4",
@@ -48,8 +51,9 @@
       "difficulty": 1,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/4.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/4.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/4-lesson.m4a"
     },
     {
       "id": "5",
@@ -60,8 +64,9 @@
       "difficulty": 1,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/5.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/5.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/5-lesson.m4a"
     },
     {
       "id": "6",
@@ -72,8 +77,9 @@
       "difficulty": 2,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/6.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/6.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/6-lesson.m4a"
     },
     {
       "id": "7",
@@ -84,8 +90,9 @@
       "difficulty": 2,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/7.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/7.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/7-lesson.m4a"
     },
     {
       "id": "8",
@@ -96,8 +103,9 @@
       "difficulty": 2,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/8.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/8.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/8-lesson.m4a"
     },
     {
       "id": "9",
@@ -108,8 +116,9 @@
       "difficulty": 2,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/9.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/9.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/9-lesson.m4a"
     },
     {
       "id": "10",
@@ -120,8 +129,9 @@
       "difficulty": 2,
       "tags": ["numbers"],
       "enabled": true,
-      "audio": "/assets/audio/en/numbers/10.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/numbers/10.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/numbers/10-lesson.m4a"
     }
   ]
 }

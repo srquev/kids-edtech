@@ -12,8 +12,15 @@
       "difficulty": 1,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/elephant.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/elephant.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 0
+      },
+      "lessonAudio": "/assets/audio/hi/animals/elephant-lesson.m4a"
     },
     {
       "id": "lion",
@@ -24,8 +31,15 @@
       "difficulty": 1,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/lion.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/lion.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 1
+      },
+      "lessonAudio": "/assets/audio/hi/animals/lion-lesson.m4a"
     },
     {
       "id": "tiger",
@@ -36,8 +50,15 @@
       "difficulty": 1,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/tiger.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/tiger.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 2
+      },
+      "lessonAudio": "/assets/audio/hi/animals/tiger-lesson.m4a"
     },
     {
       "id": "dog",
@@ -48,8 +69,15 @@
       "difficulty": 1,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/dog.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/dog.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 3
+      },
+      "lessonAudio": "/assets/audio/hi/animals/dog-lesson.m4a"
     },
     {
       "id": "cat",
@@ -60,8 +88,15 @@
       "difficulty": 1,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/cat.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/cat.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 4
+      },
+      "lessonAudio": "/assets/audio/hi/animals/cat-lesson.m4a"
     },
     {
       "id": "rabbit",
@@ -72,8 +107,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/rabbit.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/rabbit.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 5
+      },
+      "lessonAudio": "/assets/audio/hi/animals/rabbit-lesson.m4a"
     },
     {
       "id": "bear",
@@ -84,8 +126,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/bear.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/bear.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 6
+      },
+      "lessonAudio": "/assets/audio/hi/animals/bear-lesson.m4a"
     },
     {
       "id": "panda",
@@ -96,8 +145,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/panda.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/panda.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 7
+      },
+      "lessonAudio": "/assets/audio/hi/animals/panda-lesson.m4a"
     },
     {
       "id": "monkey",
@@ -108,8 +164,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/monkey.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/monkey.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 8
+      },
+      "lessonAudio": "/assets/audio/hi/animals/monkey-lesson.m4a"
     },
     {
       "id": "fox",
@@ -120,8 +183,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/fox.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/fox.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 9
+      },
+      "lessonAudio": "/assets/audio/hi/animals/fox-lesson.m4a"
     },
     {
       "id": "cow",
@@ -132,8 +202,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/cow.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/cow.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 10
+      },
+      "lessonAudio": "/assets/audio/hi/animals/cow-lesson.m4a"
     },
     {
       "id": "pig",
@@ -144,8 +221,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/pig.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/pig.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 11
+      },
+      "lessonAudio": "/assets/audio/hi/animals/pig-lesson.m4a"
     },
     {
       "id": "horse",
@@ -156,8 +240,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/horse.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/horse.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 12
+      },
+      "lessonAudio": "/assets/audio/hi/animals/horse-lesson.m4a"
     },
     {
       "id": "sheep",
@@ -168,8 +259,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/sheep.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/sheep.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 13
+      },
+      "lessonAudio": "/assets/audio/hi/animals/sheep-lesson.m4a"
     },
     {
       "id": "giraffe",
@@ -180,8 +278,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/giraffe.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/giraffe.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 14
+      },
+      "lessonAudio": "/assets/audio/hi/animals/giraffe-lesson.m4a"
     },
     {
       "id": "zebra",
@@ -192,8 +297,15 @@
       "difficulty": 2,
       "tags": ["animals"],
       "enabled": true,
-      "audio": "/assets/audio/hi/animals/zebra.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/hi/animals/zebra.m4a",
+      "audioAvailable": true,
+      "image": "/assets/images/animals-realistic.jpg",
+      "imageGrid": {
+        "columns": 4,
+        "rows": 4,
+        "index": 15
+      },
+      "lessonAudio": "/assets/audio/hi/animals/zebra-lesson.m4a"
     }
   ]
 }

@@ -59,6 +59,13 @@ export const routes: Routes = [
             (m) => m.GamesComponent,
           ),
       },
+      ...['stories', 'stories/:story'].map((path) => ({
+        path,
+        loadComponent: () =>
+          import('./features/stories/stories.component').then(
+            (m) => m.StoriesComponent,
+          ),
+      })),
       {
         path: 'play/:kind',
         loadComponent: () =>

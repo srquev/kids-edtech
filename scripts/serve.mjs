@@ -11,6 +11,8 @@ const types = {
   ".png": "image/png",
   ".webmanifest": "application/manifest+json",
   ".mp3": "audio/mpeg",
+  ".m4a": "audio/mp4",
+  ".jpg": "image/jpeg",
 };
 createServer(async (req, res) => {
   try {

@@ -1,0 +1,191 @@
+<div class="page stories-page" [attr.lang]="language()">
+  <a
+    class="back-link"
+    [routerLink]="storyId() ? ['/stories'] : ['/']"
+    [queryParams]="storyId() ? { lang: language() } : {}"
+    ><span aria-hidden="true">←</span
+    >{{ t(storyId() ? "story.all" : "common.home") }}</a
+  >
+  <div class="story-toolbar">
+    <span class="eyebrow">{{ t("story.title") }}</span>
+    <div
+      class="language-switch"
+      role="group"
+      [attr.aria-label]="t('story.language')"
+    >
+      <button
+        lang="en"
+        [attr.aria-pressed]="language() === 'en'"
+        (click)="setLanguage('en')"
+      >
+        English
+      </button>
+      <button
+        lang="hi"
+        [attr.aria-pressed]="language() === 'hi'"
+        (click)="setLanguage('hi')"
+      >
+        हिन्दी
+      </button>
+    </div>
+  </div>
+  @if (loading()) {
+    <div class="state" role="status">{{ t("common.loading") }}</div>
+  } @else if (failed()) {
+    <div class="state" role="alert">
+      <p>{{ t("common.error") }}</p>
+      <button class="button" (click)="load()">{{ t("common.retry") }}</button>
+    </div>
+  } @else if (!storyId()) {
+    <div class="page-heading">
+      <div>
+        <h1>{{ t("story.title") }}</h1>
+        <p>{{ t("story.subtitle") }}</p>
+      </div>
+      <span class="moon" aria-hidden="true">☾</span>
+    </div>
+    <div class="story-grid">
+      @for (story of stories(); track story.id) {
+        <a
+          class="story-card panel"
+          [routerLink]="['/stories', story.id]"
+          [queryParams]="{ lang: language() }"
+        >
+          <div class="cover-art"><app-item-art [item]="art(story.art)" /></div>
+          <span class="story-theme">{{ story[language()].theme }}</span>
+          <h2>{{ story[language()].title }}</h2>
+          <div class="card-footer">
+            <span>{{ t("story.pages", { count: story.pages.length }) }}</span
+            ><span aria-hidden="true">→</span>
+          </div>
+        </a>
+      }
+    </div>
+  } @else if (selected(); as story) {
+    <section
+      #reader
+      class="reader panel"
+      tabindex="-1"
+      aria-labelledby="story-title"
+    >
+      <span class="pill">{{ story[language()].theme }}</span>
+      <h1 id="story-title">{{ story[language()].title }}</h1>
+      @if (ended()) {
+        <span class="ending-star" aria-hidden="true">✦</span>
+        <h2>{{ t("story.ended") }}</h2>
+        <div class="question">
+          <span class="eyebrow">{{ t("story.question") }}</span>
+          <h3>{{ story[language()].question }}</h3>
+          <button class="text-link read-question" (click)="readQuestion()">
+            <svg aria-hidden="true"><use href="#volume" /></svg
+            >{{ t("story.readQuestion") }}
+          </button>
+          <div class="answer-options">
+            @for (option of story[language()].options; track option.id) {
+              <button
+                class="button secondary"
+                [class.correct]="
+                  answer() === option.id && answer() === story.answerId
+                "
+                [disabled]="answer() === story.answerId"
+                (click)="choose(option.id)"
+              >
+                {{ option.text }}
+              </button>
+            }
+          </div>
+          <p class="answer-feedback" aria-live="polite">
+            @if (answer()) {
+              {{
+                t(answer() === story.answerId ? "story.correct" : "story.retry")
+              }}
+            }
+          </p>
+        </div>
+        <div class="reader-actions">
+          <button class="button" (click)="restart()">
+            {{ t("story.again") }}</button
+          ><a
+            class="button secondary"
+            routerLink="/stories"
+            [queryParams]="{ lang: language() }"
+            >{{ t("story.all") }}</a
+          >
+        </div>
+      } @else if (page(); as current) {
+        <p class="page-position" aria-live="polite">
+          {{
+            t("story.position", {
+              current: pageIndex() + 1,
+              total: story.pages.length,
+            })
+          }}
+        </p>
+        <progress
+          [value]="pageIndex() + 1"
+          [max]="story.pages.length"
+          [attr.aria-label]="
+            t('story.position', {
+              current: pageIndex() + 1,
+              total: story.pages.length,
+            })
+          "
+        ></progress>
+        <div class="page-art"><app-item-art [item]="art(current.art)" /></div>
+        <p class="story-text">{{ current[language()].text }}</p>
+        <div class="reader-actions">
+          <button class="button" (click)="read()">
+            <svg aria-hidden="true"><use href="#volume" /></svg
+            >{{ t("story.read") }}
+          </button>
+          <button class="button secondary" (click)="read(true)">
+            {{ t("story.slow") }}
+          </button>
+        </div>
+      }
+      <div class="audio-status" aria-live="polite">
+        @if (audio.muted()) {
+          <p>{{ t("learn.soundMuted") }}</p>
+        } @else if (audio.voiceDisabled()) {
+          <p>{{ t("learn.voiceDisabled") }}</p>
+        } @else if (audio.failure()) {
+          <p>{{ t("story.audioRetry") }}</p>
+        } @else if (audio.playing()) {
+          <button class="text-link" (click)="audio.stop()">
+            {{ t("story.stop") }}
+          </button>
+        }
+      </div>
+      @if (!ended()) {
+        <nav class="page-navigation" [attr.aria-label]="t('learn.navigation')">
+          <button
+            class="button secondary"
+            [disabled]="pageIndex() === 0"
+            (click)="move(-1)"
+          >
+            <span aria-hidden="true">←</span>{{ t("story.back") }}
+          </button>
+          @if (pageIndex() < story.pages.length - 1) {
+            <button class="button" (click)="move(1)">
+              {{ t("story.next") }}<span aria-hidden="true">→</span>
+            </button>
+          } @else {
+            <button class="button" (click)="finish()">
+              {{ t("story.finish") }}<span aria-hidden="true">✓</span>
+            </button>
+          }
+        </nav>
+      }
+    </section>
+  } @else {
+    <div class="state">
+      <h1>{{ t("story.missing") }}</h1>
+      <a
+        class="button"
+        routerLink="/stories"
+        [queryParams]="{ lang: language() }"
+        >{{ t("story.all") }}</a
+      >
+    </div>
+  }
+</div>

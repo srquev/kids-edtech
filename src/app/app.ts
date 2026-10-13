@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 import {
   NavigationEnd,
+  NavigationStart,
   Router,
   RouterLink,
   RouterLinkActive,
@@ -55,7 +56,7 @@ export class App implements OnDestroy {
     this.lastActive = Date.now();
   };
   private readonly timer = window.setInterval(() => {
-    const learning = /^\/(learn\/|play\/|trace)/.test(this.path());
+    const learning = /^\/(learn\/|play\/|trace|stories\/)/.test(this.path());
     if (learning && !document.hidden && Date.now() - this.lastActive < 60_000)
       this.progress.addSeconds(10);
   }, 10_000);
@@ -64,12 +65,17 @@ export class App implements OnDestroy {
     window.addEventListener('keydown', this.activity);
     this.router.events
       .pipe(
+        filter((event) => event instanceof NavigationStart),
+        takeUntilDestroyed(),
+      )
+      .subscribe(() => this.audio.stop());
+    this.router.events
+      .pipe(
         filter((event) => event instanceof NavigationEnd),
         takeUntilDestroyed(),
       )
       .subscribe((event) => {
         this.path.set(event.urlAfterRedirects);
-        this.audio.stop();
         this.lastActive = Date.now();
         if (
           !event.urlAfterRedirects.startsWith('/parent') &&

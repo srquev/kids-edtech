@@ -9,7 +9,8 @@ A private, offline-first preschool learning app for children aged 2–6 and thei
 - Three-step onboarding: welcome, nickname/age/avatar, English or Hindi.
 - Multiple local profiles with isolated progress and parent-protected switching.
 - Six complete learning categories: 26 English letters, numbers 1–10, 10 colors, 8 shapes, 16 animals, and 10 fruits. All 80 objects have English and Hindi content.
-- Visual lessons, replayable pronunciation, and a lesson-to-Find-It journey targeting the selected object.
+- Visual lessons with Back/Next navigation, a lesson counter, category completion, and a resume action for the next unexplored item. Tap pictures to hear names, listen slowly, or read the description aloud. A lesson-to-Find-It journey targets the selected object.
+- Tiny storytime on Home: three original four-page stories in English and Hindi, an in-reader language switch, page narration and slower playback, Back/Next controls, and a gentle question at the end. Stories and their 30 voice clips work offline after installation.
 - Find It, tap-to-Match It, Count It, and Memory Match. Five-question sessions, gentle retries, explicit next steps, and equal effort rewards regardless of mistakes. Memory supports 4, 6, or 12 cards.
 - Configurable smart practice, repeated-session mastery, stars, four deterministic badges, and parent learning insights.
 - SVG tracing for A–Z, a–z, 0–9, circle, square, and triangle. Ordered path validation, starting dots, touch/pointer drawing, keyboard drawing, and completion feedback.
@@ -118,7 +119,7 @@ Add an entry to both relevant language packs. Keep a stable `id` across language
 }
 ```
 
-Only reference files that actually exist. `image` is optional: `ItemArtComponent` falls back to a local color swatch or emoji/glyph. Animal and fruit lesson objects currently use platform emoji; home/category artwork is original SVG. This is a replaceable MVP asset system, not a completed professional illustration library. Production art should use one consistent style and local optimized WebP/AVIF assets.
+Only reference files that actually exist. `image` is optional: `ItemArtComponent` falls back to a local color swatch or emoji/glyph. All 16 animals and 10 fruits use locally packaged, AI-generated realistic pictures in two compressed JPEG atlases, shared across English/Hindi lessons and games. Optional `imageGrid: { columns, rows, index }` metadata selects a cell. Images fall back to the original emoji if loading fails. Generation prompts and asset provenance are in `public/assets/images/README.md`. Home/category artwork remains original SVG.
 
 The loader rejects duplicate IDs, unsupported schemas, mismatched category/language, and nonlocal asset URLs. Each pack declares `version`, `language`, `category`, and `items`. `version: 1` denotes the supported schema. Normal content edits are picked up by Angular's hashed service-worker manifest; a schema change requires a loader migration.
 
@@ -142,7 +143,11 @@ The app sets HTML `lang` and `dir` from metadata. Layout uses logical properties
 
 Place a real recording under `assets/audio/<language>/<category>/<id>.mp3`, update the metadata, and set `audioAvailable: true`. Do not create empty placeholder binaries. Recorded audio takes precedence; missing or failed playback falls back to `SpeechAdapter`.
 
-The MVP contains **no recorded voice packs**. Pronunciation uses browser/device speech synthesis. Voice availability, pronunciation quality, and offline speech vary by OS; Hindi may require an installed voice. All learning interactions remain visually usable without audio. Replace `SpeechAdapter` with a native implementation for guaranteed packaged Android speech. Sound effects are synthesized locally.
+All 80 lessons ship with **320 local AAC clips**: a spoken name and a full description in both English and Hindi (about 4.2 MB total). “Listen again” plays the name, “Listen slowly” plays it at 0.8 speed with pitch preserved, and “Read to me” plays the description. These controls use ordinary audio playback and work without browser speech synthesis. The clips are prefetched for offline use. Muted sound and disabled spoken guidance still respect parent settings.
+
+The clips are synthesized with Samantha (English, 145 words/minute) and Lekha (Hindi, 140 words/minute). `node scripts/generate-lesson-audio.mjs` regenerates them on macOS with those voices installed. The generator rejects empty/silent PCM output; `public/assets/audio/manifest.json` records the source text, voice, levels, and file hashes. Content validation rejects stale recordings after text changes. Browser tests decode every clip and exercise the three controls with speech synthesis unavailable. Storytime adds 30 further clips for its pages and questions (350 clips total). Regenerate only story audio with `node scripts/generate-lesson-audio.mjs --stories`. Story content is in `public/assets/content/stories.json`; the reader language switch leaves the child’s saved app language unchanged.
+
+Dynamic game instructions and missing-clip fallback still use browser/device speech synthesis; availability varies by device. Audio failures have visible retry guidance. Sound effects are synthesized locally.
 
 ### Add a game
 
@@ -156,7 +161,7 @@ Paths are data in `content/tracing.json`, sampled into ordered points. A stroke 
 
 Deploy `dist/kids-edtech/browser/` to a static HTTPS host with SPA fallback to `index.html`. Serve `ngsw-worker.js`, `ngsw.json`, and `index.html` with revalidation rather than long immutable caching. Hashed application assets can use long immutable caching. Manifest scope and asset paths assume deployment at the origin root.
 
-The service worker prefetches the shell, route chunks, small original SVGs, and core English/Hindi JSON. Larger future image/audio assets are lazy cached. Therefore **new optional media is not guaranteed offline until downloaded**; future packs should have an explicit download-and-verify lifecycle. The current core MVP requires no remote assets. Offline operation starts after a successful initial load and service-worker activation. Updates show a friendly reload action and do not interrupt an activity automatically. See [Angular service-worker configuration](https://angular.dev/ecosystem/service-workers/config).
+The service worker prefetches the shell, route chunks, small original SVGs, and core English/Hindi JSON. The two learning image atlases and all bundled voice clips are prefetched with the content packs for offline learning. The current core MVP requires no remote assets. Offline operation starts after a successful initial load and service-worker activation. Updates show a friendly reload action and do not interrupt an activity automatically. See [Angular service-worker configuration](https://angular.dev/ecosystem/service-workers/config).
 
 The manifest supplies 192px, 512px and maskable PNG icons. Rebuild icons with `node scripts/generate-icons.mjs` after changing the local logo. Test installation and offline reload on actual Android hardware before store release.
 

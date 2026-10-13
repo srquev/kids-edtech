@@ -12,8 +12,9 @@
       "difficulty": 1,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/circle.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/circle.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/circle-lesson.m4a"
     },
     {
       "id": "square",
@@ -24,8 +25,9 @@
       "difficulty": 1,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/square.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/square.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/square-lesson.m4a"
     },
     {
       "id": "triangle",
@@ -36,8 +38,9 @@
       "difficulty": 1,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/triangle.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/triangle.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/triangle-lesson.m4a"
     },
     {
       "id": "rectangle",
@@ -48,8 +51,9 @@
       "difficulty": 1,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/rectangle.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/rectangle.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/rectangle-lesson.m4a"
     },
     {
       "id": "oval",
@@ -60,8 +64,9 @@
       "difficulty": 1,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/oval.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/oval.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/oval-lesson.m4a"
     },
     {
       "id": "star",
@@ -72,8 +77,9 @@
       "difficulty": 2,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/star.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/star.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/star-lesson.m4a"
     },
     {
       "id": "heart",
@@ -84,8 +90,9 @@
       "difficulty": 2,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/heart.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/heart.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/heart-lesson.m4a"
     },
     {
       "id": "diamond",
@@ -96,8 +103,9 @@
       "difficulty": 2,
       "tags": ["shapes"],
       "enabled": true,
-      "audio": "/assets/audio/en/shapes/diamond.mp3",
-      "audioAvailable": false
+      "audio": "/assets/audio/en/shapes/diamond.m4a",
+      "audioAvailable": true,
+      "lessonAudio": "/assets/audio/en/shapes/diamond-lesson.m4a"
     }
   ]
 }
